@@ -295,22 +295,22 @@
                 "DETAILS": "이 훈련 데이터셋에는 타입별로 분류된 여러 포켓몬의 이미지가 포함되어 있습니다. 사진을 보고 포켓몬의 타입을 예측하는 머신러닝 모델을 훈련하기에 좋은 출발점이 되는 데이터셋입니다."
             },
             "ARGO": {
-                "TITLE": "Ocean data",
-                "SUMMARY": "Predict the location from ocean sensor data",
-                "DESCRIPTION": "Train a machine learning model to predict the location of ocean robots. ",
-                "DETAILS": "Argo is an international program that collects information from inside the ocean using a fleet of robotic instruments that drift with the ocean currents and move up and down between the surface and a mid-water level. Each instrument (float) spends almost all its life below the surface.\n\nSome floats fail to report back their location data. Train a machine learning model to predict which ocean the float data is likely to have been collected from.\n\n\nAttribution / References:\nForget, Gaël, 2016, \"MITprof_mar2016_argo0910.nc\", ECCO version 4 release 2: in situ and estimated profile data (MITprof data sets), https://doi.org/10.7910/DVN/EE3C40/DQBDDA, Harvard Dataverse, V1\nForget, G., Campin, J.-M., Heimbach, P., Hill, C. N., Ponte, R. M., and Wunsch, C.: ECCO version 4: an integrated framework for non-linear inverse modeling and global ocean state estimation, Geosci. Model Dev., 8, 3071–3104, https://doi.org/10.5194/gmd-8-3071-2015, 2015.\n\nPrepared by Dani Jones, British Antartic Survey, NERC, UKRI"
+                "TITLE": "해양 데이터",
+                "SUMMARY": "해양 센서 데이터로 위치 예측하기",
+                "DESCRIPTION": "해양 로봇의 위치를 예측하는 머신러닝 모델을 훈련해봅니다.",
+                "DETAILS": "아르고(Argo)는 로봇 관측 장비들을 이용해 바닷속 정보를 수집하는 국제 프로그램입니다. 이 장비들은 해류를 따라 떠다니며 수면과 중간 수심 사이를 오르내립니다. 각 장비(플로트)는 일생의 대부분을 수면 아래에서 보냅니다.\n\n일부 플로트는 위치 데이터를 보고하지 못하기도 합니다. 플로트 데이터가 어느 바다에서 수집되었을지 예측하는 머신러닝 모델을 훈련해보세요\n\n\n출처 / 참고문헌:\nForget, Gaël, 2016, \"MITprof_mar2016_argo0910.nc\", ECCO version 4 release 2: in situ and estimated profile data (MITprof data sets), https://doi.org/10.7910/DVN/EE3C40/DQBDDA, Harvard Dataverse, V1\nForget, G., Campin, J.-M., Heimbach, P., Hill, C. N., Ponte, R. M., and Wunsch, C.: ECCO version 4: an integrated framework for non-linear inverse modeling and global ocean state estimation, Geosci. Model Dev., 8, 3071–3104, https://doi.org/10.5194/gmd-8-3071-2015, 2015.\n\n자료 작성: Dani Jones, British Antartic Survey, NERC, UKRI"
             },
             "FAKENEWS": {
-                "TITLE": "Fake news",
-                "SUMMARY": "Recognize fake news",
-                "DESCRIPTION": "Train a machine learning model to recognize the type of writing in fake news. ",
-                "DETAILS": "False and misleading news is more common as people turn to social media to get their news. Use this dataset to create a machine learning model that can try to distinguish when news is real or fake.\n\n\nAttribution: \nhttps://www.uvic.ca/ecs/ece/isot/datasets/fake-news/\n\nAcknowledgements:\nAhmed H, Traore I, Saad S. \"Detecting opinion spams and fake news using text classification\", Journal of Security and Privacy, Volume 1, Issue 1, Wiley, January/February 2018.\nAhmed H, Traore I, Saad S. (2017) \"Detection of Online Fake News Using N-Gram Analysis and Machine Learning Techniques\". In: Traore I., Woungang I., Awad A. (eds) Intelligent, Secure, and Dependable Systems in Distributed and Cloud Environments. ISDDC 2017. Lecture Notes in Computer Science, vol 10618. Springer, Cham (pp. 127-138)."
+                "TITLE": "가짜 뉴스",
+                "SUMMARY": "가짜 뉴스 인식하기",
+                "DESCRIPTION": "가짜 뉴스에 쓰인 글의 유형을 인식하는 머신러닝 모델을 훈련해봅니다.",
+                "DETAILS": "사람들이 소셜 미디어로 뉴스를 접하게 되면서 거짓되고 오해를 불러일으키는 뉴스가 더 흔해지고 있습니다. 이 데이터셋을 사용해 뉴스가 진짜인지 가짜인지 구별을 시도하는 머신러닝 모델을 만들어보세요.\n\n\n출처: \nhttps://www.uvic.ca/ecs/ece/isot/datasets/fake-news/\n\nAcknowledgements:\nAhmed H, Traore I, Saad S. \"Detecting opinion spams and fake news using text classification\", Journal of Security and Privacy, Volume 1, Issue 1, Wiley, January/February 2018.\nAhmed H, Traore I, Saad S. (2017) \"Detection of Online Fake News Using N-Gram Analysis and Machine Learning Techniques\". In: Traore I., Woungang I., Awad A. (eds) Intelligent, Secure, and Dependable Systems in Distributed and Cloud Environments. ISDDC 2017. Lecture Notes in Computer Science, vol 10618. Springer, Cham (pp. 127-138)."
             },
             "STARS": {
-                "TITLE": "Star types",
-                "SUMMARY": "Learn to classify the types of stars",
-                "DESCRIPTION": "Train a machine learning model to predict the type of a star based on their attributes. ",
-                "DETAILS": "Stellar classification is when astronomers classify a star based on their spectral characteristics. Use this dataset to train a simple machine learning model that can predict some types of stars.\n\nThe 'temperature' field is in degrees Kelvin.\nThe 'radius' field gives the size of the star relative to the Sun.\nThe 'brightness' field gives the luminosity of the star relative to the Sun.\nThe 'colour' field gives the observable colour of the star.\n\nAttribution: \nhttps://www.kaggle.com/datasets/brsdincer/star-type-classification"
+                "TITLE": "별의 유형"
+                "SUMMARY": "별의 유형 분류하는 법 배우기",
+                "DESCRIPTION": "별의 속성을 바탕으로 별의 유형을 예측하는 머신러닝 모델을 훈련해봅니다.",
+                "DETAILS": "항성 분류는 천문학자들이 별의 스펙트럼 특성을 바탕으로 별을 분류하는 것을 말합니다. 이 데이터셋을 사용해 몇 가지 별의 유형을 예측할 수 있는 간단한 머신러닝 모델을 훈련해보세요.\n\n'temperature'(온도) 필드는 켈빈(K) 단위입니다.\n'radius'(반지름) 필드는 태양 대비 별의 크기를 나타냅니다.\n'brightness'(밝기) 필드는 태양 대비 별의 광도를 나타냅니다.\n'colour'(색) 필드는 관측되는 별의 색을 나타냅니다.\n\n출처: \nhttps://www.kaggle.com/datasets/brsdincer/star-type-classification"
             },
             "CAPTCHA": {
                 "TITLE": "CAPTCHA",
