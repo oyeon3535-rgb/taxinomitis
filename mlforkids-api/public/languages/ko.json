@@ -130,46 +130,46 @@
         "PREDICTING": "예측 중",
         "GENERATING": "생성 중",
         "AS": "(으)로",
-        "SHARE": "Share",
-        "UNSHARE": "Un-share",
-        "WHOLE_CLASS_TITLE": "Crowd-sourced project",
-        "WHOLE_CLASS_NOTES": "This is a whole-class project. All students in your class can use it and add to the training data.",
-        "CLOUD_STORAGE_TITLE": "Cloud project",
-        "CLOUD_STORAGE_NOTES": "Your training data for this project is stored in the cloud. This project can be accessed from any computer.",
-        "LOCAL_STORAGE_TITLE": "Local project",
-        "LOCAL_STORAGE_NOTES": "Your training data for this project is stored on your computer. This project can only be accessed from this web browser."
+        "SHARE": "공유",
+        "UNSHARE": "공유 해제",
+        "WHOLE_CLASS_TITLE": "함께 만드는 프로젝트",
+        "WHOLE_CLASS_NOTES": "이것은 학급 전체 프로젝트입니다. 학급의 모든 학생이 이 프로젝트를 사용하고 훈련 데이터를 추가할 수 있습니다.",
+        "CLOUD_STORAGE_TITLE": "클라우드 프로젝트",
+        "CLOUD_STORAGE_NOTES": "이 프로젝트의 훈련 데이터는 클라우드에 저장됩니다. 어떤 컴퓨터에서든 이 프로젝트에 접근할 수 있습니다.",
+        "LOCAL_STORAGE_TITLE": "로컬 프로젝트",
+        "LOCAL_STORAGE_NOTES": "이 프로젝트의 훈련 데이터는 사용자의 컴퓨터에 저장됩니다. 이 프로젝트는 현재 사용 중인 웹 브라우저에서만 접근할 수 있습니다."
     },
     "NEWPROJECT": {
         "TITLE": "새로운 머신러닝 프로젝트를 시작해봅시다",
         "PROJECT_NAME": {
             "TITLE": "프로젝트 이름",
-            "NOTES": "컴퓨터가 어떤 종류의 일을 하는지에 대해 알아볼 수 있도록 이름을 만들어보세요"
+            "NOTES": "컴퓨터에게 무엇을 가르칠 것인지 알 수 있도록 프로젝트 이름을 만들어보세요."
         },
         "WHOLE_CLASS_PROJECT": {
             "TITLE": "모든 학생을 위한 프로젝트입니까?",
-            "NOTES_1": "이 프로젝트를 여러분 클래스의 모든 학생이 함께하기를 원한다면 이 버튼을 클릭하세요",
+            "NOTES_1": "이 프로젝트를 여러분 학급의 모든 학생이 함께하기를 원한다면 이 버튼을 클릭하세요",
             "NOTES_2": "이것은 많은 학생에게 머신러닝을 가르치기에 유용한 방법입니다"
         },
         "STORAGE": {
-            "LABEL": "Storage",
-            "LOCAL": "In your web browser",
-            "CLOUD": "In the cloud",
-            "NOTES_1": "Where do you want to store this project?",
-            "NOTES_2": "Storing in your web browser removes limits on how big your project can be.",
-            "NOTES_3": "Storing in the cloud will let you access the project from any computer.",
-            "PROMPT": "Please choose where you would like to store your project"
+            "LABEL": "저장 위치",
+            "LOCAL": "웹 브라우저에 저장",
+            "CLOUD": "클라우드에 저장",
+            "NOTES_1": "이 프로젝트를 어디에 저장하시겠어요?",
+            "NOTES_2": "웹 브라우저에 저장하면 프로젝트 크기 제한이 없어집니다.",
+            "NOTES_3": "클라우드에 저장하면 어떤 컴퓨터에서든 프로젝트를 열 수 있습니다.",
+            "PROMPT": "프로젝트를 저장할 위치를 선택해주세요"
         },
         "TYPES": {
-            "TYPELABEL": "Project Type",
+            "TYPELABEL": "프로젝트 유형",
             "LABEL": "인식",
-            "GENERATE": "generating",
+            "GENERATE": "생성",
             "NOTES_1": "컴퓨터가 어떤 방식으로 인식하도록 할지 선택해봅시다",
             "NOTES_2": "글자, 문장을 인식하도록 한다면 \"문자(text)\"를 선택하세요",
             "NOTES_3": "사진, 다이어그램 등을 인식하도록 원한다면 \"이미지(images)\"를 선택하세요",
             "NOTES_4": "숫자 등을 인식하도록 원한다면 \"숫자(numbers)\"를 선택하세요",
-            "NOTES_5": "다양한 소리나 목소리를 인식하도록 원한다면 \"사운드(sounds)\"를 ",
-            "NOTES_6": "To predict numbers, choose \"predicting numbers\"",
-            "NOTES_7": "To generate new text with a language model, choose \"generating text\""
+            "NOTES_5": "다양한 소리나 목소리를 인식하도록 원한다면 \"사운드(sounds)\"를 선택하세요",
+            "NOTES_6": "숫자를 예측하려면 \"숫자 예측(predicting numbers)\"을 선택하세요",
+            "NOTES_7": "언어 모델로 새로운 글을 생성하려면 \"문자 생성(generating text)\"을 선택하세요"
         },
         "LANGUAGE": {
             "LABEL": "언어",
@@ -204,8 +204,8 @@
             "TRYITNOW": "미안해요! \"지금 사용해보기\"를 사용하면 한번에 한 프로젝트만 만들 수 있어요. 새 프로젝트를 만들기 전에 현재 진행중인 프로젝트를 지워야해요."
         },
         "WARNINGS": {
-            "MLCRED-TEXT-NOKEYS": "Please let your teacher know that they will need to add a \"Watson Assistant API key\" to your class to let you train the machine learning model for your new project",
-            "MLCRED-TEXT-INVALID": "There might be a problem with the IBM Cloud API keys you will need to train a machine learning model for your new project. Please ask your teacher to try verifying the \"Watson Assistant API keys\" in your class."
+            "MLCRED-TEXT-NOKEYS": "새 프로젝트의 머신러닝 모델을 훈련하려면 선생님이 학급에 \"Watson Assistant API 키\"를 추가해야 합니다. 선생님께 이 사실을 알려주세요.",
+            "MLCRED-TEXT-INVALID": "새 프로젝트의 머신러닝 모델을 훈련하는 데 필요한 IBM Cloud API 키에 문제가 있을 수 있습니다. 선생님께 학급의 \"Watson Assistant API 키\"를 확인해달라고 요청해주세요."
         }
     },
     "DATASETS": {
@@ -216,17 +216,17 @@
             "INTRO_3": "원한다면 훈련 데이터를 수정할 수 있으며, 또는 데이터를 그대로 사용하여 머신러닝 모델을 만들 수 있습니다."
         },
         "IMPORT": "가져오기",
-        "PLEASEWAIT": "Importing. Please wait...",
+        "PLEASEWAIT": "가져오는 중입니다. 잠시만 기다려주세요...",
         "NEW": {
-            "LOCAL": "Store on your computer",
-            "CLOUD": "Store in the cloud"
+            "LOCAL": "내 컴퓨터에 저장하기",
+            "CLOUD": "클라우드에 저장하기"
         },
-        "TESTING": "Do you want to use some of the data for testing?",
+        "TESTING": "데이터 중 일부를 테스트에 사용하시겠어요?",
         "MORE": {
             "TITLE": "추가 데이터 세트",
-            "SUMMARY": "어떤 데이터 세트를 보고 싶습니까??",
+            "SUMMARY": "어떤 데이터 세트를 보고 싶습니까?",
             "DESCRIPTION": "이 데이터 세트를 사용한 새로운 아이디어가 있습니까? 아니면 기여하고자하는 데이터 세트가 있습니까? 그렇다면 연락하십시오!",
-            "MOREINFO": "More..."
+            "MOREINFO": "더 보기..."
         },
         "DATA": {
             "TITANIC": {
@@ -242,10 +242,10 @@
                 "DETAILS": "Wikimedia Commons의 이미지 훈련 데이터 세트는 동물 사진의 훈련 데이터를 구축하기에 적절합니다."
             },
             "ORGANICWASTE": {
-                "TITLE": "Organic waste",
-                "SUMMARY": "Sorting waste items",
-                "DESCRIPTION": "Training a machine learning model to recognise if an item can be placed in a biodegradable bin is a way to highlight how image recognition can help.",
-                "DETAILS": "Attribution: Sashaank Sekar https://www.kaggle.com/datasets/techsash/waste-classification-data"
+                "TITLE": "유기성 폐기물",
+                "SUMMARY": "쓰레기 분류하기",
+                "DESCRIPTION": "어떤 물건을 생분해성 쓰레기통에 넣어도 되는지 인식하도록 머신러닝 모델을 훈련하는 것은 이미지 인식이 어떻게 도움이 되는지 보여주는 방법입니다.",
+                "DETAILS": "출처: Sashaank Sekar https://www.kaggle.com/datasets/techsash/waste-classification-data"
             },
             "UKNEWSPAPERS": {
                 "TITLE": "영국 신문의 헤드라인",
@@ -254,45 +254,45 @@
                 "DETAILS": "이 훈련 데이터는 the Daily Mail, the Daily Telegraph, the Independent, and The Guardian의 헤드 라인을 포함합니다."
             },
             "PHISHING": {
-                "TITLE": "Phishing",
-                "SUMMARY": "Predict if a link is a phishing link",
-                "DESCRIPTION": "Phishing is when a website tries to trick you into giving up sensitive information, by sending you a link to a fake website disguised like a trustworthy one. You can use this to train a machine learning model that can predict if a web address is a real link, or a phishing link to a fake website.",
-                "DETAILS": "This training dataset includes attributes of five hundred legitimate web addresses, and five hundred phishing links.\n\nThe 'address type' field is 'IP addr' if the link has a numeric IP address like '104.20.74.246' or 'DNS name' if the link has a name-based address like 'machinelearningforkids.co.uk'. \nThe 'url length' field groups the training addresses by how long they are. \nThe 'shortening' field is 'yes' if the web address uses a shortening service like TinyURL or bit.ly, or 'no' if it doesn't. \nThe 'includes @' field is 'yes' if the web address includes an @ symbol, or 'no' if it doesn't. \nThe 'port number' field is 'standard' if the web address uses a standard port number like 80 or 443, or 'non-std' if it uses something different. \nThe 'domain age' field groups addresses by how long ago the web address in the address was registered. \nThe 'redirects' field groups the training addresses by the number of times a web browser is sent to a different address before reaching a final page. \nThe 'domain reg' field is 'expiring' if the registration for the web address domain name expires within a year."
+                "TITLE": "피싱",
+                "SUMMARY": "링크가 피싱 링크인지 예측하기",
+                "DESCRIPTION": "피싱은 신뢰할 수 있는 사이트처럼 위장한 가짜 웹사이트 링크를 보내서, 여러분의 중요한 정보를 빼내려고 속이는 것을 말합니다. 이 프로젝트에서는 웹 주소가 진짜 링크인지, 가짜 웹사이트로 연결되는 피싱 링크인지 예측하는 머신러닝 모델을 훈련할 수 있습니다.",
+                "DETAILS": "이 훈련 데이터셋에는 정상 웹 주소 500개와 피싱 링크 500개의 속성이 포함되어 있습니다.\n\n'address type'(주소 유형) 필드는 링크가 '104.20.74.246'처럼 숫자로 된 IP 주소이면 'IP addr', 'machinelearningforkids.co.uk'처럼 이름으로 된 주소이면 'DNS name'입니다. \n'url length'(URL 길이) 필드는 훈련용 주소를 길이에 따라 분류합니다. \n'shortening'(단축 여부) 필드는 웹 주소가 TinyURL이나 bit.ly 같은 단축 서비스를 사용하면 'yes', 사용하지 않으면 'no'입니다. \n'includes @'(@ 포함 여부) 필드는 웹 주소에 @ 기호가 포함되어 있으면 'yes', 아니면 'no'입니다. \n'port number'(포트 번호) 필드는 웹 주소가 80이나 443 같은 표준 포트 번호를 사용하면 'standard', 다른 것을 사용하면 'non-std'입니다. \n'domain age'(도메인 등록 기간) 필드는 웹 주소가 등록된 지 얼마나 오래되었는지에 따라 분류합니다. \n'redirects'(리디렉션 횟수) 필드는 최종 페이지에 도달하기 전까지 웹 브라우저가 다른 주소로 이동되는 횟수에 따라 훈련용 주소를 분류합니다. \n'domain reg'(도메인 등록 만료) 필드는 웹 주소 도메인 이름의 등록이 1년 이내에 만료되면 'expiring'입니다."
             },
             "NOUGHTSANDCROSSES": {
-                "SUMMARY": "Learn how to play a game",
-                "DESCRIPTION": "Train a machine learning model to play noughts and crosses, by collecting examples of moves that the computer can use to learn how to predict the best move to make next.",
-                "DETAILS": "This is an empty template to help you collect your own training data. For instructions on how to use it, download 'Noughts and Crosses' from Worksheets"
+                "SUMMARY": "게임하는 법 배우기",
+                "DESCRIPTION": "다음에 둘 최선의 수를 예측하는 방법을 컴퓨터가 배울 수 있도록, 게임 수의 예시를 수집하여 '틱택토(Noughts and Crosses)'를 하는 머신러닝 모델을 훈련해봅니다.",
+                "DETAILS": "이것은 여러분만의 훈련 데이터를 수집할 수 있도록 도와주는 빈 템플릿입니다. 사용 방법은 워크시트에서 '틱택토(Noughts and Crosses)'를 다운로드해 확인하세요"
             },
             "TOPTRUMPS": {
-                "TITLE": "Kings & Queens Top Trumps",
-                "SUMMARY": "Learn how to play a game",
-                "DESCRIPTION": "Train a machine learning model to play a Top Trumps game based on English Kings and Queens, by collecting examples of moves that the computer can use to learn how to predict which value to choose.",
-                "DETAILS": "This is an empty template to help you collect your own training data. For instructions on how to use it, download 'Top Trumps' from Worksheets."
+                "TITLE": "왕과 여왕 탑 트럼프",
+                "SUMMARY": "게임하는 법 배우기",
+                "DESCRIPTION": "게임 진행 예시를 수집하여, 영국의 왕과 여왕을 소재로 한 탑 트럼프 게임을 하는 머신러닝 모델을 훈련해봅니다. 컴퓨터는 이 예시들을 바탕으로 어떤 값을 선택할지 예측하는 법을 배웁니다.",
+                "DETAILS": "이것은 여러분만의 훈련 데이터를 수집할 수 있도록 도와주는 빈 템플릿입니다. 사용 방법은 워크시트에서 '탑 트럼프(Top Trumps)'를 다운로드해 확인하세요."
             },
             "SONGLYRICS": {
-                "TITLE": "Song lyrics",
-                "SUMMARY": "Recognize types of songs",
-                "DESCRIPTION": "Train a machine learning model to recognize the type of song based on it's lyrics",
-                "DETAILS": "This training dataset includes 140 lines from song lyrics - half from children's songs and half from Top 40 songs. It is a good starting set for training a machine learning model to recognize different uses of language."
+                "TITLE": "노래 가사",
+                "SUMMARY": "노래 종류 인식하기",
+                "DESCRIPTION": "가사를 보고 노래의 종류를 인식하는 머신러닝 모델을 훈련해봅니다",
+                "DETAILS": "이 훈련 데이터셋에는 노래 가사 140줄이 포함되어 있습니다. 절반은 동요에서, 절반은 인기 순위 40위권(Top 40) 노래에서 가져왔습니다. 언어가 어떻게 다르게 사용되는지 인식하는 머신러닝 모델을 훈련하기에 좋은 출발점이 되는 데이터셋입니다."
             },
             "HANDGESTURES": {
                 "TITLE": "손짓",
                 "SUMMARY": "손가락의 위치를 통해 손동작을 인식한다.",
                 "DESCRIPTION": "손가락의 위치에 대한 사례들을 수집하여 다른 손동작들을 인식할 수 있도록 학습 모델을 훈련합니다.",
-                "DETAILS": "이 템플릿은 당신 고유의 학습 데이터를 수집하는데 도움이 되는 빈 템플릿입니다. 사용용을 위해서는 워크시트에서 ' Hand gesture'를 다운로드 하십시오."
+                "DETAILS": "이 템플릿은 당신 고유의 학습 데이터를 수집하는데 도움이 되는 빈 템플릿입니다. 사용을 위해서는 워크시트에서 'Hand gesture'를 다운로드 하십시오."
             },
             "POKEMONSTATS": {
-                "TITLE": "Pokémon statistics",
-                "SUMMARY": "Recognize Pokémon from their statistics",
-                "DESCRIPTION": "Train a machine learning model to predict the type of a Pokémon based on a collection of statistics about hundreds of Pokémon. ",
-                "DETAILS": "This training dataset includes attributes of a selection of Pokémon. \n\nThe 'height' field is the height of a Pokémon in metres. \nThe 'weight' field is the weight of a Pokémon in kilograms. \nThe 'attack' field is the attack strength of a level 100 Pokémon. \nThe 'defense' field is the defense strength of a level 100 Pokémon. \nThe 'speed' field is the speed rating of a level 100 Pokémon. \nThe 'HP' field is the hit point statistics for a Pokémon. \nThe 'capture rate' field is the catch rate for a Pokémon. Pokémon with higher catch rates are easier to capture than Pokémon with lower catch rates."
+                "TITLE": "포켓몬 능력치",
+                "SUMMARY": "능력치로 포켓몬 인식하기",
+                "DESCRIPTION": "수백 마리 포켓몬의 능력치 데이터를 바탕으로 포켓몬의 타입을 예측하는 머신러닝 모델을 훈련해봅니다.",
+                "DETAILS": "이 훈련 데이터셋에는 여러 포켓몬의 속성이 포함되어 있습니다. \n\n'height'(키) 필드는 포켓몬의 키를 미터(m) 단위로 나타냅니다. \n'weight'(몸무게) 필드는 포켓몬의 몸무게를 킬로그램(kg) 단위로 나타냅니다. \n'attack'(공격) 필드는 레벨 100 포켓몬의 공격력입니다. \n'defense'(방어) 필드는 레벨 100 포켓몬의 방어력입니다. \n'speed'(스피드) 필드는 레벨 100 포켓몬의 스피드 수치입니다. \n'HP' 필드는 포켓몬의 체력(hit point) 수치입니다. \n'capture rate'(포획률) 필드는 포켓몬을 잡을 수 있는 확률입니다. 포획률이 높은 포켓몬은 낮은 포켓몬보다 잡기 쉽습니다."
             },
             "POKEMONIMAGES": {
-                "TITLE": "Pokémon images",
-                "SUMMARY": "Recognize Pokémon from pictures",
-                "DESCRIPTION": "Train a machine learning model to predict the type of a Pokémon based on a set of pictures of a hundred Pokémon. ",
-                "DETAILS": "This training dataset includes images of a selection of Pokémon, grouped by their type. It is a good starting set for training a machine learning model to predict the type of a Pokémon from a picture."
+                "TITLE": "포켓몬 이미지",
+                "SUMMARY": "사진으로 포켓몬 인식하기",
+                "DESCRIPTION": "포켓몬 100마리의 사진 모음을 바탕으로 포켓몬의 타입을 예측하는 머신러닝 모델을 훈련해봅니다",
+                "DETAILS": "이 훈련 데이터셋에는 타입별로 분류된 여러 포켓몬의 이미지가 포함되어 있습니다. 사진을 보고 포켓몬의 타입을 예측하는 머신러닝 모델을 훈련하기에 좋은 출발점이 되는 데이터셋입니다."
             },
             "ARGO": {
                 "TITLE": "Ocean data",
