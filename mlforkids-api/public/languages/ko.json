@@ -313,16 +313,16 @@
                 "DETAILS": "항성 분류는 천문학자들이 별의 스펙트럼 특성을 바탕으로 별을 분류하는 것을 말합니다. 이 데이터셋을 사용해 몇 가지 별의 유형을 예측할 수 있는 간단한 머신러닝 모델을 훈련해보세요.\n\n'temperature'(온도) 필드는 켈빈(K) 단위입니다.\n'radius'(반지름) 필드는 태양 대비 별의 크기를 나타냅니다.\n'brightness'(밝기) 필드는 태양 대비 별의 광도를 나타냅니다.\n'colour'(색) 필드는 관측되는 별의 색을 나타냅니다.\n\n출처: \nhttps://www.kaggle.com/datasets/brsdincer/star-type-classification"
             },
             "CAPTCHA": {
-                "TITLE": "CAPTCHA",
-                "SUMMARY": "Recognise objects in images",
-                "DESCRIPTION": "Train a machine learning model to solve CAPTCHA problems, by recognising objects in photographs. ",
-                "DETAILS": "This is an empty template to help you collect your own training data. For instructions on how to use it, download 'CAPTCHA' from Worksheets."
+                "TITLE": "캡차(CAPTCHA)",
+                "SUMMARY": "이미지 속 사물 인식하기",
+                "DESCRIPTION": "사진 속 사물을 인식하여 캡차 문제를 푸는 머신러닝 모델을 훈련해봅니다. ",
+                "DETAILS": "이것은 여러분만의 훈련 데이터를 수집할 수 있도록 도와주는 빈 템플릿입니다. 사용 방법은 워크시트에서 '캡차(CAPTCHA)'를 다운로드해 확인하세요."
             },
             "WILDFIRE": {
-                "TITLE": "Wildfire detection",
-                "SUMMARY": "Recognise fires in aerial photos",
-                "DESCRIPTION": "Train a machine learning model to recognize a fire in aerial photography. ",
-                "DETAILS": "Use satellite imagery to detect wildfires and help locals and firefighters track and deal with fires around the world. \nThis dataset has been generated using AI tools."
+                "TITLE": "산불 감지",
+                "SUMMARY": "항공 사진에서 불 인식하기",
+                "DESCRIPTION": "항공 사진에서 불을 인식하는 머신러닝 모델을 훈련해봅니다.",
+                "DETAILS": "위성 사진을 이용해 산불을 감지하고, 전 세계의 주민과 소방관들이 불을 추적하고 대처할 수 있도록 도와보세요. \n이 데이터셋은 AI 도구를 사용해 생성되었습니다."
             }
         }
     },
@@ -330,60 +330,60 @@
         "TRAIN": {
             "TITLE": "훈련",
             "BODY": "컴퓨터가 훈련할 수 있도록 다양한 데이터를 준비하세요.",
-            "REGRESSION": "Collect examples of what you want the computer to predict"
+            "REGRESSION": "컴퓨터가 예측했으면 하는 것들의 예시를 모아보세요"
         },
         "LEARNANDTEST": {
             "TITLE": "학습 &amp; 평가",
             "BODY": "데이터를 사용하여 컴퓨터를 학습시키세요.",
-            "REGRESSION": "Use the examples to train the computer to make predictions"
+            "REGRESSION": "예시를 사용해 컴퓨터가 예측하도록 훈련시키세요"
         },
         "MAKES": {
             "TITLE": "만들기",
-            "BODY": "당신이 게임이나 앱을 만들기 위해 훈련시킨 머신러닝 모델을 스크래치, 파이선, 앱 인벤터에서 사용해 보세요.",
-            "BODY_SCRATCHPYTHONAPPINV": "Use the machine learning model you've trained to make a game or app, in Scratch, Python, or App Inventor",
-            "BODY_SCRATCHONLY": "Scratch에서 게임이나 앱을 만드는데 당신이 학습시킨 기계 학습 모델을 사용합니다."
+            "BODY": "훈련시킨 머신러닝 모델을 사용해 스크래치, 파이썬, 에듀블록스로 게임이나 앱을 만들어보세요.",
+            "BODY_SCRATCHPYTHONAPPINV": "훈련시킨 머신러닝 모델을 사용해 스크래치, 파이썬, 앱 인벤터로 게임이나 앱을 만들어보세요.",
+            "BODY_SCRATCHONLY": "훈련시킨 머신러닝 모델을 사용해 스크래치로 게임이나 앱을 만들어보세요."
         },
         "SCRATCH": {
-            "TITLE": "스크래치 2",
-            "BODY": "여러분이 만든 머신러닝 모델을 스크래치 2을 사용하여 적용하세요."
+            "TITLE": "스크래치",
+            "BODY": "여러분이 만든 머신러닝 모델을 사용해 스크래치로 게임을 만들어보세요."
         },
         "PYTHON": {
             "TITLE": "파이썬",
-            "BODY": "여러분이 만든 머신러닝 모델을 파이썬을 사용하여 적용하세요."
+            "BODY": "여러분이 만든 머신러닝 모델을 파이썬 프로그램에서 사용해보세요."
         },
         "APPINVENTOR": {
             "TITLE": "앱 인벤터",
-            "BODY": "여러분이 만든 머신러닝 모델을 앱 인벤터를 사용하여 적용하세요."
+            "BODY": "여러분이 만든 머신러닝 모델을 사용하는 모바일 앱을 만들어보세요."
         },
         "SCRATCH3": {
             "TITLE": "스크래치 3",
-            "BODY": "여러분이 만든 머신러닝 모델을 스크래치 3을 사용하여 적용하세요."
+            "BODY": "여러분이 만든 머신러닝 모델을 새로운 버전의 스크래치에서 사용해보세요."
         },
         "EDUBLOCKS": {
-            "TITLE": "EduBlocks",
-            "BODY": "Write Python using a drag and drop coding tool"
+            "TITLE": "에듀블록스(EduBlocks)",
+            "BODY": "드래그 앤 드롭 코딩 도구로 파이썬을 작성해보세요."
         }
     },
     "TRAINING": {
         "TITLE": "훈련",
         "ADDLABEL": "새로운 레이블 추가",
-        "ADDCOLUMN": "Add new column",
+        "ADDCOLUMN": "새 열 추가",
         "CREATEFIRSTLABEL": "'추가' 버튼을 클릭하여 당신의 첫번째 바구니를 만드세요.",
         "CROWDSOURCEDEMPTY": "선생님이 새로운 바구니를 만든 다음 페이지를 새로고침하세요.",
         "ADDEXAMPLE": "데이터 추가",
-        "ADDFROMFILE": "Add file",
+        "ADDFROMFILE": "파일 추가",
         "ADDURL": "웹",
         "ADDWEBCAM": "웹캠",
         "ADDDRAWING": "그리기",
         "DRAGIMAGES": "사진을 드래그하여 가져오세요.",
-        "DRAGIMAGESLOCAL": "Drag pictures from files or other browser windows and drop them here",
+        "DRAGIMAGESLOCAL": "파일이나 다른 브라우저 창에서 사진을 끌어와 여기에 놓으세요.",
         "NEWLABEL": {
             "INTRO": "새로운 레이블을 추가하세요.",
             "ERROR": "레이블 이름은 숫자와 문자로만 작성하세요."
         },
         "NEWCOLUMN": {
-            "INTRO": "Enter name for a new column",
-            "ERROR": "Only use letters and numbers in column names"
+            "INTRO": "새 열의 이름을 입력하세요",
+            "ERROR": "열 이름에는 글자와 숫자만 사용하세요"
         },
         "NEWEXAMPLE": {
             "INTRO": "새로운 데이터를 추가하세요.",
@@ -399,20 +399,20 @@
         },
         "BACKGROUNDNOISE": "주변 소음 수집은 컴퓨터가 여러분의 소리를 인식하는데 도움이 됩니다.",
         "REGRESSION": {
-            "NOOUTPUTCOLS": "Tick the column(s) that you want your machine learning model to predict values for.",
-            "NOTRAINING": "Add training examples from Scratch or by uploading a CSV file.",
-            "NOCOLUMNS": "Add columns to use for this project.",
-            "ONECOLUMN": "You need at least two columns to have input and output."
+            "NOOUTPUTCOLS": "머신러닝 모델이 어떤 열의 값을 예측할지 체크하세요.",
+            "NOTRAINING": "훈련 예시는 스크래치에서 추가하거나 CSV 파일을 업로드해서 추가할 수 있습니다.",
+            "NOCOLUMNS": "이 프로젝트에서 사용할 열을 추가하세요.",
+            "ONECOLUMN": "입력과 출력을 위해서는 최소 2개의 열이 필요합니다."
         }
     },
     "MODELS": {
         "TITLE": "머신 러닝 모델",
         "TRAIN": "새로운 머신 러닝 모델을 훈련시켜보세요.",
-        "TRAIN_SIMPLE": "Train simplified machine learning model",
+        "TRAIN_SIMPLE": "간소화된 머신러닝 모델 훈련하기",
         "CANCEL": "훈련 취소",
         "DELETE": "모델 삭제",
         "TEST_CANVAS": "무엇인가를 그려서 모델을 테스트해보세요.",
-        "TEST_WEBCAM": "사진을 찍어서 모델을 ",
+        "TEST_WEBCAM": "테스트에 사용할 사진을 찍으세요",
         "WHATHAVEYOUDONE": {
             "TITLE": "무엇을 하고 있나요?",
             "PLEASEWAIT": "몇 분이 걸려요. 하지만 트레이닝 컴퓨터가 바쁘다면 조금 더 걸릴 수 있어요.",
@@ -444,8 +444,8 @@
                     "TEXT" : "여러분의 머신러닝 모델이 완성되었으며, 다음을 인식할 수 있습니다: ",
                     "IMAGES" : "여러분의 머신러닝 모델이 완성되었으며, 다음을 인식할 수 있습니다: ",
                     "NUMBERS" : "여러분의 머신러닝 모델이 완성되었으며, 다음을 인식할 수 있습니다: ",
-                    "SOUNDS" : "여러분의 머신러닝 모델이 완성되었으며, 다음을 인식할 수 있습니다:  ",
-                    "REGRESSION": "You have trained a machine learning model to predict the values of "
+                    "SOUNDS" : "여러분의 머신러닝 모델이 완성되었으며, 다음을 인식할 수 있습니다: ",
+                    "REGRESSION": "여러분의 머신러닝 모델이 완성되었으며, 다음을 예측할 수 있습니다: "
                 },
                 "CREATED" : {
                     "TEACHER" : "여러분의 선생님이 인공지능 모델을 만든 시각: ",
@@ -481,10 +481,10 @@
             "IDLE" : {
                 "NOLABELS" : {
                     "CROWDSOURCED" : {
-                        "TEXT" : "여러분의 교실에서 문자 데이터를 더 모으기를 원합니다.",
-                        "IMAGES" : "여러분의 교실에서 이미지 데이터를 더 모으기를 원합니다.",
-                        "NUMBERS" : "여러분의 교실에서 숫자 데이터를 더 모으기를 원합니다.",
-                        "SOUNDS" : "여러분의 교실에서 사운드 데이터를 더 모으기를 원합니다."
+                        "TEXT" : "여러분의 학급에서 문자 데이터를 더 모으기를 원합니다.",
+                        "IMAGES" : "여러분의 학급에서 이미지 데이터를 더 모으기를 원합니다.",
+                        "NUMBERS" : "여러분의 학급에서 숫자 데이터를 더 모으기를 원합니다.",
+                        "SOUNDS" : "여러분의 학급에서 사운드 데이터를 더 모으기를 원합니다."
                     },
                     "INDIVIDUAL" : {
                         "TEXT" : "문자 데이터가 더 필요해요.",
@@ -495,17 +495,17 @@
                 },
                 "NODATA" : {
                     "CROWDSOURCED" : {
-                        "TEXT" : "다음의 문자를 컴퓨터가 인식하기 위해 여러분 교실 친구들은 데이터를 추가해야합니다: ",
-                        "IMAGES" : "다음의 그림를 컴퓨터가 인식하기 위해 여러분 교실 친구들은 데이터를 추가해야합니다: ",
-                        "NUMBERS" : "다음의 숫자를 컴퓨터가 인식하기 위해 여러분 교실 친구들은 데이터를 추가해야합니다: ",
-                        "SOUNDS" : "다음의 사운드를 컴퓨터가 인식하기 위해 여러분 교실 친구들은 데이터를 추가해야합니다: "
+                        "TEXT" : "컴퓨터가 다음 문자를 인식할 수 있도록 학급 친구들과 함께 데이터를 추가해야 합니다: ",
+                        "IMAGES" : "컴퓨터가 다음 그림을 인식할 수 있도록 학급 친구들과 함께 데이터를 추가해야 합니다: ",
+                        "NUMBERS" : "컴퓨터가 다음 숫자를 인식할 수 있도록 학급 친구들과 함께 데이터를 추가해야 합니다: ",
+                        "SOUNDS" : "컴퓨터가 다음 사운드를 인식할 수 있도록 학급 친구들과 함께 데이터를 추가해야 합니다: "
                     },
                     "INDIVIDUAL" : {
-                        "TEXT" : "다음의 문자를 컴퓨터가 인식하기 위해 여러분은 데이터를 추가해야합니다: ",
-                        "IMAGES" : "다음의 그림을 컴퓨터가 인식하기 위해 여러분은 데이터를 추가해야합니다: ",
-                        "NUMBERS" : "다음의 숫자를 컴퓨터가 인식하기 위해 여러분은 데이터를 추가해야합니다: ",
-                        "SOUNDS" : "다음의 사운드를 컴퓨터가 인식하기 위해 여러분은 데이터를 추가해야합니다: ",
-                        "REGRESSION" : "You said that you want to collect examples of numbers for a computer to predict the value of "
+                        "TEXT" : "컴퓨터가 다음 문자를 인식할 수 있도록 데이터를 추가해야 합니다: ",
+                        "IMAGES" : "컴퓨터가 다음 그림을 인식할 수 있도록 데이터를 추가해야 합니다: ",
+                        "NUMBERS" : "컴퓨터가 다음 숫자를 인식할 수 있도록 데이터를 추가해야 합니다: ",
+                        "SOUNDS" : "컴퓨터가 다음 사운드를 인식할 수 있도록 데이터를 추가해야 합니다: ",
+                        "REGRESSION" : "컴퓨터가 다음 값을 예측할 수 있도록 숫자 데이터를 추가해야 합니다: "
                     }
                 },
                 "NOEXAMPLES" : {
