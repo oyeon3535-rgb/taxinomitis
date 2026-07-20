@@ -765,28 +765,28 @@
         "HEADING_1": "이 그래프는 무엇을 보여주나요?",
         "SUMMARY": "이 그래프는 모델이 얼마나 잘 배우고 있는지 보여줍니다.",
         "WHATISLOSS": "\"Loss(손실)\"는 모델이 저지르는 실수입니다. 숫자가 낮을수록 실수가 적다는 뜻이니 좋은 거예요.",
-        "WHATISEPOCH": "\"Epoch(에포크)\"는 훈련 단계를 뜻합니다. Epoch 0은 훈련의 시작, Epoch 199는 마지막 훈련 단계입니다.",
+        "WHATISEPOCH": "Epoch(에포크)"는 훈련을 반복한 횟수를 나타냅니다. Epoch 0이 첫 번째 훈련이고, Epoch 199가 마지막 훈련이에요.",
         "TRAININGLOSS": "<strong>Training loss(훈련 손실)</strong>(파란 선)는 모델이 배우고 있는 데이터로 연습할 때 실수를 얼마나 하는지 보여줍니다.",
         "VALIDATIONLOSS": "<strong>Validation loss(검증 손실)</strong>(주황 선)는 처음 보는 데이터를 만났을 때 실수를 얼마나 하는지 보여줍니다. 모델이 정말로 배운 건지, 아니면 훈련 데이터를 그냥 외워버린 건지 확인하는 거예요.",
 
-        "HEADING_2": "Understanding the graph",
-        "LINESGODOWN": "If <strong>both lines go down</strong>, that's good. Your model is learning and getting better at making predictions.",
-        "LINESFLAT": "If the <strong>lines stay flat</strong>, your model is not getting better and learned as much as it can.",
-        "LINEGOESUP": "If the <strong>validation line goes up</strong> but the <strong>training line goes down</strong>, your model might be memorizing instead of really learning."
+        "HEADING_2": "그래프 읽는 법",
+        "LINESGODOWN": "<strong>두 선이 모두 내려가면</strong> 좋은 신호예요. 모델이 잘 배우면서 예측 실력이 점점 좋아지고 있다는 뜻입니다.",
+        "LINESFLAT": "<strong>선이 평평하게 유지되면</strong>, 모델이 배울 수 있는 만큼 다 배워서 더 이상 나아지지 않는 상태입니다.",
+        "LINEGOESUP": "<strong>검증 선은 올라가는데 훈련 선은 내려간다면</strong>, 모델이 정말 배우는 게 아니라 외우고 있는 것일 수 있어요."
     },
     "DESCRIBEIMAGEMODEL": {
-        "WHATISEPOCH": "\"Epoch\" is a description of a step in the training. Epoch 0 was the start of the training. The final epoch number depends on how much training data you have.",
+        "WHATISEPOCH": "\"Epoch(에포크)\"는 훈련을 반복한 횟수를 나타냅니다. Epoch 0이 첫 번째 훈련이고, 마지막 Epoch 숫자는 훈련 데이터가 얼마나 있는지에 따라 달라집니다.",
 
-        "LINESGODOWN": "If the <strong>line goes down</strong>, that's good. Your model is learning and getting better at recognizing things.",
-        "LINESFLAT": "If the <strong>line stays flat</strong>, your model is not getting better and has learned as much as it can. If the model is still not good enough, you will need more training examples for the model to learn any more.",
-        "LINEGOESUP": "If the <strong>line goes up</strong>, your model is making more mistakes the more that it learns, which means it might be having trouble learning. Try adding more varied training examples. "
+        "LINESGODOWN": "<strong>선이 내려가면</strong> 좋은 신호예요. 모델이 잘 배우면서 인식 실력이 점점 좋아지고 있다는 뜻입니다.",
+        "LINESFLAT": "<strong>선이 평평하게 유지되면</strong>, 모델이 배울 수 있는 만큼 다 배워서 더 이상 나아지지 않는 상태입니다. 그런데도 모델의 실력이 아직 부족하다면, 더 배울 수 있도록 훈련 데이터를 더 추가해야 합니다.",
+        "LINEGOESUP": "<strong>선이 올라가면</strong>, 배울수록 오히려 실수가 늘고 있다는 뜻이라 모델이 학습에 어려움을 겪고 있는 것일 수 있어요. 더 다양한 훈련 데이터를 추가해보세요."
     },
     "DESCRIBETEXTMODEL": {
         "ZOOM": "해당 컨트롤을 사용하여 다이어그램을 확대하세요",
         "ERRORS": {
             "TEXTONLY": "오직 텍스트 프로젝트에 대한 신경망만 표현 가능합니다."
         },
-        "MOREINFO": "더 자세한 내용을 알고 싶으면 다음을 검색해보세요 : ",
+        "MOREINFO": "더 자세한 내용을 알고 싶으면 다음을 검색해보세요: ",
         "PAGE1": {
             "TITLE": "신경망",
             "TEXT1": "당신이 이 프로젝트에서 학습시킨 종류의 기계학습 모델을 <em>신경망</em>이라고 합니다.",
@@ -811,8 +811,8 @@
             "TEXT3": "만약 당신이 자신만의 기계학습 모델을 구축하고 싶다면 당신은 당신의 특정 프로젝트에 잘 맞는 방법을 선택할 필요가 있습니다."
         },
         "PAGE5": {
-            "TITLE": "단어 주머니",
-            "TEXT1": "텍스트를 숫자로 변환하는 방법 중 하나는 word가 사용되는 빈도를 나타내는 숫자를 만드는 것입니다."
+            "TITLE": "단어 가방",
+            "TEXT1": "문자를 숫자로 바꾸는 방법 중 하나는, 각 단어가 몇 번 나왔는지 센 수를 숫자로 사용하는 것입니다."
         },
         "PAGE6": {
             "TITLE": "특징 추출",
@@ -940,70 +940,70 @@
         }
     },
     "LANGUAGEMODEL": {
-        "TITLE": "Prepare a language model",
-        "NAME": "language model",
+        "TITLE": "언어 모델 준비하기",
+        "NAME": "언어 모델",
 
-        "AGEWARNING": "If you are under the age of 13, please only use a small language model with supervision from a trusted adult. Generative AI can sometimes generate text that isn't nice or appropriate.",
+        "AGEWARNING": "13세 미만이라면 반드시 믿을 수 있는 어른과 함께 소형 언어 모델만 사용하세요. 생성형 AI는 때때로 좋지 않거나 부적절한 글을 만들어낼 수 있습니다.",
 
-        "REVIEW": "Review",
+        "REVIEW": "검토",
 
         "TYPE": {
-            "TITLE": "Type of language model",
-            "TOY": "Toy",
-            "SMALL": "Small",
-            "LARGE": "Large",
-            "DESCRIPTION_1": "Computers can look for patterns in large numbers of documents. Language models generate text by using those statistical patterns to predict what word could come next.",
-            "DESCRIPTION_2": "Creating a <strong>toy</strong> language model will show you how this works, and see the types of patterns computers look for (in documents you choose yourself).",
-            "DESCRIPTION_3": "Configuring a <strong>small</strong> language model will show you how to use patterns found in millions of documents.",
-            "DESCRIPTION_4": "All of this will help you to understand how <strong>large</strong> language models work in the real world."
+            "TITLE": "언어 모델 종류",
+            "TOY": "토이",
+            "SMALL": "소형",
+            "LARGE": "대형",
+            "DESCRIPTION_1": "컴퓨터는 수많은 문서에서 패턴을 찾을 수 있습니다. 언어 모델은 이 통계적 패턴을 사용해 다음에 올 단어를 예측하는 방식으로 글을 생성해요.",
+            "DESCRIPTION_2": "<strong>토이</strong> 언어 모델을 만들어보면 이 원리가 어떻게 작동하는지, 컴퓨터가 어떤 패턴을 찾는지 직접 확인할 수 있어요. (문서도 여러분이 직접 고를 수 있습니다)",
+            "DESCRIPTION_3": "<strong>소형</strong> 언어 모델을 설정해보면 수백만 개의 문서에서 찾아낸 패턴을 활용하는 방법을 배울 수 있어요.",
+            "DESCRIPTION_4": "이 모든 과정은 실제 세상의 <strong>대형</strong> 언어 모델이 어떻게 작동하는지 이해하는 데 도움이 될 거예요."
         },
 
         "CORPUS": {
-            "TITLE": "corpus",
-            "ADD": "Add text",
-            "ADDTEXT": "Add text to corpus",
-            "ADDWIKIPEDIA": "Add Wikipedia page to corpus"
+            "TITLE": "말뭉치",
+            "ADD": "문자 추가",
+            "ADDTEXT": "말뭉치에 문자 추가",
+            "ADDWIKIPEDIA": "말뭉치에 위키백과 페이지 추"
         },
 
         "INITIALCONTEXT": {
-            "TITLE": "Initial context",
-            "ADDTEXT": "Initial context",
-            "ADDWIKIPEDIA": "Use Wikipedia page as initial context",
-            "DESCRIPTION": "Additional text that is included with the first prompt, to provide additional knowledge that is missing from the model."
+            "TITLE": "초기 컨텍스트",
+            "ADDTEXT": "초기 컨텍스트",
+            "ADDWIKIPEDIA": "위키백과 페이지를 초기 컨텍스트로 사용",
+            "DESCRIPTION": "첫 번째 프롬프트와 함께 포함되는 추가 텍스트입니다. 모델에 없는 지식을 보충해주는 역할을 해요."
         },
 
         "TOOLS": {
-            "TITLE": "Tools",
-            "UNSUPPORTED": "This model does not support using tools.",
-            "ENABLE": "Enable",
-            "DISABLE": "Disable",
-            "DESCRIPTION_1": "Some models can use 'tools' to get information not already in their knowledge.",
-            "DESCRIPTION_2": "Three simple tools are provided here to try.",
-            "DESCRIPTION_3": "Normally language models decide for themselves when to use tools. For this example, when you enable tools, the model will always use a tool to respond to your prompt.",
-            "DESCRIPTION_4": "Disable it when you want it to use its own knowledge.",
-            "ENABLED": "The model will use a tool to respond to the next prompt.",
-            "DISABLED": "The model will <strong>not</strong> use tools to respond to the next prompt.",
-            "TRY": "try this tool",
-            "RUNNING": "running tool",
-            "OUTPUT": "tool output"
+            "TITLE": "도구",
+            "UNSUPPORTED": "이 모델은 도구 사용을 지원하지 않습니다.",
+            "ENABLE": "켜기",
+            "DISABLE": "끄기",
+            "DESCRIPTION_1": "일부 모델은 '도구'를 사용해 자기가 알고 있지 않은 정보를 얻을 수 있습니다.",
+            "DESCRIPTION_2": "여기서는 간단한 도구 세 가지를 사용해볼 수 있어요.",
+            "DESCRIPTION_3": "원래 언어 모델은 도구를 언제 사용할지 스스로 결정합니다. 하지만 이 예제에서는 도구를 켜면 모델이 항상 도구를 사용해서 프롬프트에 응답해요.",
+            "DESCRIPTION_4": "모델이 자신의 지식만으로 대답하게 하려면 도구를 끄세요.",
+            "ENABLED": "다음 프롬프트에는 모델이 도구를 사용해 응답합니다.",
+            "DISABLED": "다음 프롬프트에는 모델이 도구를 사용하지 <strong>않고</strong> 응답합니다.",
+            "TRY": "이 도구 사용해보기",
+            "RUNNING": "도구 실행 중",
+            "OUTPUT": "도구 출력 결과"
         },
 
         "CONTEXTWINDOW": {
-            "TITLE": "Size of context window",
-            "DESCRIPTION": "How much text the model looks at before generating the next word. A smaller window means it works with less previous text. A larger window allows it to use more, which can make responses more accurate but needs more computer memory."
+            "TITLE": "컨텍스트 윈도우 크기",
+            "DESCRIPTION": "모델이 다음 단어를 생성하기 전에 살펴보는 텍스트의 양입니다. 윈도우가 작으면 더 적은 앞부분 텍스트만 보고 작업하고, 크면 더 많은 텍스트를 활용할 수 있어요. 그러면 응답이 더 정확해질 수 있지만, 컴퓨터 메모리가 더 많이 필요합니다."
         },
 
         "NGRAMS": {
-            "DESCRIPTION_1": "Your model will generate the next word by looking for what word commonly comes next in the text in your corpus. How much should the computer remember of what it has already generated?",
-            "DESCRIPTION_2": "Small window: it only remembers a little, so each choice will be based on just the last word.",
-            "DESCRIPTION_3": "Big window: it remembers more, so each choice will be based on the last few words.",
+            "DESCRIPTION_1": "여러분의 모델은 말뭉치의 텍스트에서 어떤 단어가 다음에 자주 오는지 찾아서 다음 단어를 생성합니다. 컴퓨터가 지금까지 생성한 내용을 얼마나 기억하게 할까요?",
+            "DESCRIPTION_2": "작은 윈도우: 조금만 기억하기 때문에, 마지막 단어 하나만 보고 다음 단어를 고릅니다.",
+            "DESCRIPTION_3": "큰 윈도우: 더 많이 기억하기 때문에, 마지막 몇 단어를 보고 다음 단어를 고릅니다.",
 
-            "SAMPLE": "sample of the tokens",
-            "COUNTLABEL": "times in your corpus",
-            "PROBABILITYLABEL": "how tokens will be selected",
-            "PROBABILITY": "the green bars show the chance that the model will choose that word to follow ",
+            "SAMPLE": "토큰 샘플",
+            "COUNTLABEL": "말뭉치에 나온 횟수",
+            "PROBABILITYLABEL": "토큰이 선택되는 방식",
+            "PROBABILITY": "초록 막대는 모델이 다음 단어로 그 단어를 선택할 확률을 나타냅니다: ",
 
-            "STOP": "This token represents something that ends a sentence, such as a full-stop (period) or exclamation mark."
+            "STOP": "이 토큰은 마침표나 느낌표처럼 문장을 끝내는 것을 나타냅니다."
         },
 
         "TEMPERATURE": {
