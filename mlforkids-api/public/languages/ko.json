@@ -514,21 +514,21 @@
                 },
                 "DATA" : {
                     "CROWDSOURCED" : {
-                        "TEXT" : "다음의 문자를 컴퓨터가 인식하기 위해 여러분 교실 친구들은 데이터를 모았습니다.",
-                        "IMAGES" : "다음의 그림를 컴퓨터가 인식하기 위해 여러분 교실 친구들은 데이터를 모았습니다.",
-                        "NUMBERS" : "다음의 숫자를 컴퓨터가 인식하기 위해 여러분 교실 친구들은 데이터를 모았습니다.",
-                        "SOUNDS" : "다음의 사운드를 컴퓨터가 인식하기 위해 여러분 교실 친구들은 데이터를 모았습니다."
+                        "TEXT" : "컴퓨터가 다음 문자를 인식하는 데 사용할 예시를 학급에서 수집했습니다: ",
+                        "IMAGES" : "컴퓨터가 다음 이미지를 인식하는 데 사용할 예시를 학급에서 수집했습니다: ",
+                        "NUMBERS" : "컴퓨터가 다음 숫자를 인식하는 데 사용할 예시를 학급에서 수집했습니다: ",
+                        "SOUNDS" : "컴퓨터가 다음 사운드를 인식하는 데 사용할 예시를 학급에서 수집했습니다: "
                     },
                     "INDIVIDUAL" : {
-                        "TEXT" : "다음의 문자를 컴퓨터가 인식하기 위해 여러분은 데이터를 모았습니다.",
-                        "IMAGES" : "다음의 그림를 컴퓨터가 인식하기 위해 여러분은 데이터를 모았습니다.",
-                        "NUMBERS" : "다음의 숫자를 컴퓨터가 인식하기 위해 여러분은 데이터를 모았습니다.",
-                        "SOUNDS" : "다음의 를 컴퓨터가 인식하기 위해 여러분은 데이터를 모았습니다.",
-                        "REGRESSION" : "You have collected examples of numbers for a computer to use to predict the value of "
+                        "TEXT" : "컴퓨터가 다음 문자를 인식하는 데 사용할 예시를 수집했습니다: ",
+                        "IMAGES" : "컴퓨터가 다음 이미지를 인식하는 데 사용할 예시를 수집했습니다: ",
+                        "NUMBERS" : "컴퓨터가 다음 숫자를 인식하는 데 사용할 예시를 수집했습니다: ",
+                        "SOUNDS" : "컴퓨터가 다음 사운드를 인식하는 데 사용할 예시를 수집했습니다: ",
+                        "REGRESSION" : "컴퓨터가 다음 값을 예측하는 데 사용할 숫자 예시를 수집했습니다: "
                     },
                     "COLLECTED" : {
-                        "CLASS" : "반 친구들이 수집한 데이터: ",
-                        "YOU" : "여러분이 수집한 데이터: "
+                        "CLASS" : "학급에서 수집한 것: ",
+                        "YOU" : "여러분이 수집한 것: "
                     }
                 }
             }
@@ -549,15 +549,15 @@
                 },
                 "LABELS" : {
                     "NO_DATA" : "다음 단계는 <a href='{{ urls.train }}'>훈련</a> 페이지로 이동해서 각각의 레이블에 데이터를 추가하는 것입니다.",
-                    "NO_DATA_REGRESSION" : "The next step is to go to the <a href='{{ urls.train }}'>Train</a> page. Add examples of numbers.",
-                    "NO_OUTPUT_COLUMNS": "The next step is to go to the <a href='{{ urls.train }}'>Train</a> page. Choose which value(s) you want the computer to learn to predict, by marking them as output columns.",
+                    "NO_DATA_REGRESSION" : "다음 단계는 <a href='{{ urls.train }}'>훈련</a> 페이지로 이동하는 것입니다. 숫자 예시를 추가하세요.",
+                    "NO_OUTPUT_COLUMNS": "다음 단계는 <a href='{{ urls.train }}'>훈련</a> 페이지로 이동하는 것입니다. 컴퓨터가 어떤 값을 예측하도록 배울지, 해당 열을 출력 열로 지정해서 선택하세요.",
                     "MORE_DATA" : {
                         "KEEP_GOING": "계속하세요",
                         "MORE_EXAMPLES" : {
-                            "YOU": "<a href='{{ urls.train }}'>훈련</a> 페이지로 이동해서 각각의 레이블에 데이터를 추가하세요.",
-                            "CLASS": "<a href='{{ urls.train }}'>훈련</a> 페이지로 이동해서 여러분 교실 친구들과 각각의 레이블에 데이터를 추가하세요."
+                            "YOU": "<a href='{{ urls.train }}'>훈련</a> 페이지로 돌아가서 각 레이블에 예시를 더 수집하세요.",
+                            "CLASS": "<a href='{{ urls.train }}'>훈련</a> 페이지로 이동해서 여러분 학 친구들과 각각의 레이블에 데이터를 추가하세요."
                         },
-                        "MORE_IS_BETTER" : "데이터를 많이 모을 수록 컴퓨터는 더 많이 배울 수 있습니다. 단, 적어도 {{ minimumExamples }}개 이상의 데이터를 모아야 합니다."
+                        "MORE_IS_BETTER" : "예를 많이 모을 수록 컴퓨터는 더 많이 배울 수 있습니다. 단, 적어도 각 레이블마다 {{ minimumExamples }}개 이상의 데이터를 모아야 합니다."
                     },
                     "ENOUGH_DATA" : {
                         "READY_TO_START" : "컴퓨터를 학습시킬 준비가 되었나요?",
@@ -575,18 +575,18 @@
             },
             "READY" : {
                 "TEST" : {
-                    "TEXT" : "아래의 머신러닝 모델을 테스트 해보세요. 훈련에 사용한 예문에 포함시키지 않은 텍스트 예제를 입력하십시오. 이것이 어떻게 인식되는지, 어느 정도 정확한지 알려줍니다.",
-                    "IMAGES" : "아래의 머신러닝 모델을 테스트 해보세요. 훈련에 사용한 예문에 포함시키지 않은 이미지 예제를 입력하십시오. 이것이 어떻게 인식되는지, 어느 정도 정확한지 알려줍니다.",
-                    "NUMBERS" : "아래의 머신러닝 모델을 테스트 해보세요. 훈련에 사용한 예문에 포함시키지 않은 숫자 예제를 입력하십시오. 이것이 어떻게 인식되는지, 어느 정도 정확한지 알려줍니다.",
-                    "SOUNDS" : "아래의 머신러닝 모델을 테스트 해보세요. 훈련에 사용한 예문에 포함시키지 않은 사운드 예제를 입력하십시오. 이것이 어떻게 인식되는지, 어느 정도 정확한지 알려줍니다.",
-                    "REGRESSION" : "Try testing the machine learning model below. Enter an example of numbers below, that you didn't include in the examples you used to train it. It will tell you what it predicts the output should be."
+                    "TEXT" : "아래의 머신러닝 모델을 테스트 해보세요. 훈련에 사용한 예시에 포함시키지 않은 새로운 텍스트 예시를 입력해보세요. 이것이 어떻게 인식되는지, 어느 정도 정확한지 알려줍니다.",
+                    "IMAGES" : "아래의 머신러닝 모델을 테스트 해보세요. 훈련에 사용한 예시에 포함시키지 않은 새로운 이미지 예시를 입력해보세요. 이것이 어떻게 인식되는지, 어느 정도 정확한지 알려줍니다.",
+                    "NUMBERS" : "아래의 머신러닝 모델을 테스트 해보세요. 훈련에 사용한 예시에 포함시키지 않은 새로운 숫자 예시를 입력해보세요. 이것이 어떻게 인식되는지, 어느 정도 정확한지 알려줍니다.",
+                    "SOUNDS" : "아래의 머신러닝 모델을 테스트 해보세요. 훈련에 사용한 예시에 포함시키지 않은 새로운 사운드 예시를 입력해보세요. 이것이 어떻게 인식되는지, 어느 정도 정확한지 알려줍니다.",
+                    "REGRESSION" : "아래의 머신러닝 모델을 테스트해보세요. 훈련에 사용한 예시에 포함시키지 않은 새로운 숫자 예시를 입력해보세요. 컴퓨터가 어떤 출력값이 나올지 예측해서 알려줍니다."
                 },
                 "SCRATCH" : "컴퓨터가 사물을 올바르게 인식하는 법을 배웠다면, 스크래치를 사용해서 컴퓨터가 배운 것을 게임에 사용해봅시다!",
-                "SCRATCH_REGRESSION" : "If the computer seems to have learned to predict things correctly, then you can go to Scratch and use what the computer has learned to make a game!",
+                "SCRATCH_REGRESSION" : "컴퓨터가 올바르게 예측하는 법을 배운 것 같다면, 스크래치로 가서 컴퓨터가 배운 것을 활용해 게임을 만들어보세요!",
                 "ADDITIONAL_TRAINING" : {
                     "MORE_EXAMPLES" : {
-                        "CROWDSOURCED" : "컴퓨터가 많은 실수를 한다면 <a href='{{ urls.train }}'>훈련</a>페이지로 가서 더 많은 예제 데이터를 모아봅시다.",
-                        "INDIVIDUAL" : "컴퓨터가 많은 실수를 한다면 <a href='{{ urls.train }}'>훈련</a>페이지로 가서 더 많은 예제 데이터를 모아봅시다."
+                        "CROWDSOURCED" : "컴퓨터가 많은 실수를 한다면 <a href='{{ urls.train }}'>훈련</a>페이지로 가서 더 많은 예시를 모아봅시다.",
+                        "INDIVIDUAL" : "컴퓨터가 많은 실수를 한다면 <a href='{{ urls.train }}'>훈련</a>페이지로 가서 더 많은 예시를 모아봅시다."
                     },
                     "RETRAIN" : {
                         "YOU" : "일단 완료하면 아래의 버튼을 클릭하여 새로운 머신러닝 모델을 학습하고, 추가한 예제 데이터가 어떤 차이를 만드는지 확인해봅시다!",
