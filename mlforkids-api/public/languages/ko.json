@@ -747,27 +747,27 @@
         }
     },
     "DESCRIBEMODEL": {
-        "TITLE": "Understand your machine learning model",
-        "TRYITOUT": "Try out your machine learning model to see how it uses the decision tree to make predictions",
+        "TITLE": "머신러닝 모델 이해하기",
+        "TRYITOUT": "머신러닝 모델이 결정 트리로 어떻게 예측하는지 직접 확인해보세요",
         "EXPLANATION": {
-            "EXPL_1": "The technique used to create your machine learning model is called a <a target='_blank' href='https://wikipedia.org/wiki/Decision_tree_learning'>Decision Tree Classifier</a>.",
-            "EXPL_2": "This is not the only way to train a machine learning model. We're using it because it's very quick and easy to train, and it is one of the easiest techniques to understand. This page shows you the decision tree that was created based on the training examples that you have collected.",
-            "EXPL_3": "When you test your model, the computer starts at the top of the tree, and follows a path until it reaches the bottom. The <strong>class</strong> at the bottom of the tree is the prediction that the machine learning model makes.",
-            "EXPL_4": "At each box in the tree, it reads the test described at the top of the box. If your test values pass the test described in the box, it follows the arrow to the left. If it doesn't pass the test, it follows the arrow to the right.",
-            "EXPL_5": "The <strong>samples</strong> shown in each box tells you how many examples in your training data matches that part of the decision tree.",
-            "EXPL_6": "The <strong>value</strong> shown in each box tells you how many examples in your training data passed the test shown at the top (following the left arrow) and how many examples didn't pass the test at the top (following the right arrow)."
+            "EXPL_1": "이 머신러닝 모델은 <a target='_blank' href='https://wikipedia.org/wiki/Decision_tree_learning'>결정 트리 분류기</a>라는 기법으로 만들어졌습니다."
+            "EXPL_2": "머신러닝 모델을 훈련하는 방법이 이것만 있는 건 아닙니다. 결정 트리는 훈련이 빠르고 간단할 뿐 아니라, 이해하기 가장 쉬운 기법 중 하나라서 사용하고 있어요. 이 페이지에서는 여러분이 수집한 훈련 데이터로 만들어진 결정 트리를 보여줍니다.",
+            "EXPL_3": "모델을 테스트하면 컴퓨터는 트리의 맨 위에서 출발해 경로를 따라 아래로 내려갑니다. 맨 아래에 도착했을 때 만나는 <strong>class</strong>가 바로 머신러닝 모델의 예측 결과입니다.",
+            "EXPL_4": "트리의 각 상자 맨 위에는 검사 조건이 적혀 있습니다. 입력한 값이 이 조건을 만족하면 왼쪽 화살표를, 만족하지 않으면 오른쪽 화살표를 따라갑니다.",
+            "EXPL_5": "각 상자의 <strong>samples</strong>는 훈련 데이터 중 그 부분에 해당하는 데이터가 몇 개인지 알려줍니다.",
+            "EXPL_6": "각 상자의 <strong>value</strong>는 조건을 만족한 데이터(왼쪽 화살표)와 만족하지 못한 데이터(오른쪽 화살표)가 각각 몇 개인지 알려줍니다."
         },
         "ERRORS": {
 
         }
     },
     "DESCRIBEREGRESSIONMODEL": {
-        "HEADING_1": "What does this graph show?",
-        "SUMMARY": "This graph shows how well your model is learning.",
-        "WHATISLOSS": "\"Loss\" is a mistake that the model makes. Lower numbers mean fewer mistakes, which is good.",
-        "WHATISEPOCH": "\"Epoch\" is a description of a step in the training. Epoch 0 was the start of the training, Epoch 199 was the final training step.",
-        "TRAININGLOSS": "<strong>Training loss</strong> (the blue line) shows how many mistakes the model makes when practicing with examples it is learning from.",
-        "VALIDATIONLOSS": "<strong>Validation loss</strong> (the orange line) shows how many mistakes it makes when trying examples it hasn't seen before. This checks to see if the model has really learned, or just memorized the training examples.",
+        "HEADING_1": "이 그래프는 무엇을 보여주나요?",
+        "SUMMARY": "이 그래프는 모델이 얼마나 잘 배우고 있는지 보여줍니다.",
+        "WHATISLOSS": "\"Loss(손실)\"는 모델이 저지르는 실수입니다. 숫자가 낮을수록 실수가 적다는 뜻이니 좋은 거예요.",
+        "WHATISEPOCH": "\"Epoch(에포크)\"는 훈련 단계를 뜻합니다. Epoch 0은 훈련의 시작, Epoch 199는 마지막 훈련 단계입니다.",
+        "TRAININGLOSS": "<strong>Training loss(훈련 손실)</strong>(파란 선)는 모델이 배우고 있는 데이터로 연습할 때 실수를 얼마나 하는지 보여줍니다.",
+        "VALIDATIONLOSS": "<strong>Validation loss(검증 손실)</strong>(주황 선)는 처음 보는 데이터를 만났을 때 실수를 얼마나 하는지 보여줍니다. 모델이 정말로 배운 건지, 아니면 훈련 데이터를 그냥 외워버린 건지 확인하는 거예요.",
 
         "HEADING_2": "Understanding the graph",
         "LINESGODOWN": "If <strong>both lines go down</strong>, that's good. Your model is learning and getting better at making predictions.",
