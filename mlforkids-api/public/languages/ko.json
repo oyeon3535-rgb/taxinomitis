@@ -716,33 +716,33 @@
             "QUESTION_10": {
                 "QUESTION": "동물 사진 모음이 컴퓨터 훈련에 적합한 좋은 품질인지, 사람의 실수가 들어 있지 않은지 어떻게 확인할 수 있을까요?",
                 "ANSWER_1": "모든 동물 사진을 직접 하나하나 살펴보고 모든 레이블에 동의하는지 확인한다",
-                "ANSWER_2": "Ask lots of people to label all the images and keep the training labels that people generally agree on",
-                "ANSWER_3": "Trick question! Humans are always right - machines make mistakes!",
-                "NOTES_1": "Even humans make mistakes and you won't always have time to double check all the training data!",
-                "NOTES_2": "If the task is tricky it can be a good idea to get more than one person to label each image and keep the label that the most humans agree is the right one."
+                "ANSWER_2": "많은 사람에게 모든 이미지에 레이블을 붙여달라고 요청하고, 사람들이 대체로 동의하는 레이블만 남긴다",
+                "ANSWER_3": "함정 문제다! 사람은 항상 옳다 - 실수는 기계가 하는 것이다!",
+                "NOTES_1": "사람도 실수를 하고, 모든 훈련 데이터를 일일이 다시 확인할 시간은 없을 것입니다!",
+                "NOTES_2": "까다로운 작업이라면 이미지 하나마다 여러 사람이 레이블을 붙이게 하고, 가장 많은 사람이 옳다고 동의한 레이블을 남기는 것이 좋은 방법입니다."
             },
             "QUESTION_11": {
-                "QUESTION": "A machine trained to identify pictures of \"food\" or \"not food\" gives inconsistent results for sandwiches, often putting them in the \"not food\" class. Which of the following could explain that?",
-                "ANSWER_1": "The human who trained the system doesn't like sandwiches and didn't put any in the training data",
-                "ANSWER_2": "The machine has to be in the right mood for a sandwich so it changes its mind a lot",
-                "ANSWER_3": "Sandwiches are not food. The system is right to be unsure",
-                "NOTES_1": "Machine learning models can only learn from the examples we show them.",
-                "NOTES_2": "It is very easy for humans to accidentally introduce their likes and dislikes into machine learning models so we should be very careful about what training data we use."
+                "QUESTION": "\"음식\" 또는 \"음식 아님\" 사진을 구별하도록 훈련된 컴퓨터가 샌드위치에 대해서는 일관성 없는 결과를 내면서, 자주 \"음식 아님\"으로 분류합니다. 다음 중 그 이유를 설명할 수 있는 것은 무엇일까요?",
+                "ANSWER_1": "시스템을 훈련시킨 사람이 샌드위치를 싫어해서 훈련 데이터에 샌드위치를 하나도 넣지 않았다",
+                "ANSWER_2": "컴퓨터도 샌드위치가 당기는 기분이어야 해서 마음이 자주 바뀐다",
+                "ANSWER_3": "샌드위치는 음식이 아니다. 시스템이 확신하지 못하는 게 맞다",
+                "NOTES_1": "머신러닝 모델은 우리가 보여주는 데이터에서만 배울 수 있습니다.",
+                "NOTES_2": "사람의 호불호가 자기도 모르게 머신러닝 모델에 들어가기 매우 쉽기 때문에, 어떤 훈련 데이터를 사용할지 아주 신중해야 합니다."
             },
             "QUESTION_12": {
-                "QUESTION": "Which of the following best describes unsupervised learning?",
-                "ANSWER_1": "Writing a program that contains lots of if/else statements to determine the result",
-                "ANSWER_2": "A machine learning algorithm that uses unlabelled data and classifies it based on how similar one dataset is to another",
-                "ANSWER_3": "A machine learning algorithm that uses labelled data and classifies it based on training from example input-output pairs",
-                "NOTES_1": "Unsupervised learning is a type of machine learning, whereas only using if/else statements is not.",
-                "NOTES_2": "Unsupervised learning algorithms are still trained, but the inputs that are given to it are not labelled or classified.",
-                "NOTES_3": "If the data is labelled then this is what's known as supervised learning."
+                "QUESTION": "다음 중 비지도 학습을 가장 잘 설명한 것은 무엇일까요?",
+                "ANSWER_1": "결과를 판단하기 위해 수많은 if/else 문을 넣어 프로그램을 작성하는 것",
+                "ANSWER_2": "레이블이 없는 데이터를 사용해, 데이터들이 서로 얼마나 비슷한지를 바탕으로 분류하는 머신러닝 알고리즘",
+                "ANSWER_3": "레이블이 있는 데이터를 사용해, 입력-출력 쌍의 데이터로 훈련하여 분류하는 머신러닝 알고리즘",
+                "NOTES_1": "비지도 학습은 머신러닝의 한 종류이지만, if/else 문만 사용하는 것은 머신러닝이 아닙니다.",
+                "NOTES_2": "비지도 학습 알고리즘도 훈련을 거치지만, 주어지는 입력에 레이블이나 분류가 붙어 있지 않습니다.",
+                "NOTES_3": "데이터에 레이블이 붙어 있다면 그것은 지도 학습이라고 부릅니다."
             },
             "QUESTION_13": {
-                "QUESTION": "Without machine learning, it would be impossible for search engines such as Google to exist.",
-                "ANSWER_1": "True",
-                "ANSWER_2": "False",
-                "NOTES_1": "Whilst many modern search engines do use machine learning, it is possible to create one without it. A basic search engine will just look for documents (web pages) that include the words the user searches for."
+                "QUESTION": "머신러닝이 없다면 구글 같은 검색 엔진은 존재할 수 없다.",
+                "ANSWER_1": "맞다",
+                "ANSWER_2": "틀리다",
+                "NOTES_1": "현대의 많은 검색 엔진이 머신러닝을 사용하긴 하지만, 머신러닝 없이도 검색 엔진을 만들 수 있습니다. 기본적인 검색 엔진은 사용자가 검색한 단어가 포함된 문서(웹 페이지)를 찾아주기만 하면 됩니다."
             }
         }
     },
