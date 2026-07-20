@@ -603,30 +603,30 @@
             "DELETION": "모델 지속 시간:",
             "LASTCHECK": "최근 모델 체크 시간:",
             "PROMPTREFRESH": "페이지를 새로고침하여 최신의 상태를 알아보세요",
-            "SIMPLIFIED": "Using a simplified machine learning model for this project that can work with a slower CPU and needs less memory to run.",
-            "SIMPLIFIED_TOOLTIP": "Use this button if the normal \"Train new machine learning model\" button doesn't work on your device. This trains a simpler model that works on slower computers and tablets."
+            "SIMPLIFIED": "이 프로젝트에서는 간소화된 머신러닝 모델을 사용합니다. 이 모델은 느린 CPU에서도 작동하고 더 적은 메모리로 실행할 수 있습니다.",
+            "SIMPLIFIED_TOOLTIP": "\"새 머신러닝 모델 훈련하기\" 버튼이 작동하지 않을 때 이 버튼을 사용하세요. 이 버튼은 느린 컴퓨터나 태블릿에서도 작동하는 더 간단한 모델을 훈련합니다."
         },
         "TESTING": {
             "INTRO": {
-                "TEXT": "여러분의 모델이 잘 학습되었는지 확인하기 위해 문자를 넣어보세요.",
-                "IMAGES": "여러분의 모델이 잘 학습되었는지 확인하기 위해 이미지를 넣어보세요.",
-                "NUMBERS": "여러분의 모델이 잘 학습되었는지 확인하기 위해 숫자를 넣어보세요.",
-                "SOUNDS": "여러분의 모델이 잘 학습되었는지 확인하기 위해 사운드를 넣어보세요.",
-                "REGRESSION": "Try putting in some numbers to see the prediction based on your training."
+                "TEXT": "문자를 입력해서 여러분이 훈련한 결과를 바탕으로 어떻게 인식되는지 확인해보세요.",
+                "IMAGES": "이미지를 넣어서 여러분이 훈련한 결과를 바탕으로 어떻게 인식되는지 확인해보세요.",
+                "NUMBERS": "숫자를 입력해서 여러분이 훈련한 결과를 바탕으로 어떻게 인식되는지 확인해보세요.",
+                "SOUNDS": "소리를 내보고 여러분이 훈련한 결과를 바탕으로 어떻게 인식되는지 확인해보세요.",
+                "REGRESSION": "숫자를 입력해서 여러분이 훈련한 결과를 바탕으로 한 예측을 확인해보세요."
             },
             "WEBCAM": "<strong>웹캠</strong>으로 테스트하기",
             "DRAWING": "<strong>그림 그리기</strong>로 테스트하기",
             "FILE": "Test with <strong>file</strong>",
             "WWW": "<strong>인터넷 자료</strong>로 테스트하기",
             "RECOGNISED": "<strong>{{ testoutput }}</strong>(으)로 인식되었습니다.",
-            "PREDICTION": "Prediction:",
+            "PREDICTION": "예측:",
             "STARTLISTENING": "듣기 시작",
             "STOPLISTENING": "듣기 "
         },
         "TESTDATA": {
-            "TITLE": "Test data:",
-            "EXPLANATION": "You kept some of the data from the project template out of the training set, so that it can be used for testing. Click the button below to download a CSV file.",
-            "DOWNLOAD": "Download test data"
+            "TITLE": "테스트 데이터: ",
+            "EXPLANATION": "프로젝트 템플릿 데이터 중 일부를 테스트용으로 따로 남겨두었습니다. 아래 버튼을 클릭해 CSV 파일을 다운로드하세요.",
+            "DOWNLOAD": "테스트 데이터 다운로드"
         },
         "QUIZ": {
             "TITLE": "퀴즈 시간!",
@@ -637,85 +637,85 @@
             "NEXT_QUESTION": "다음 문항",
 
             "QUESTION_1": {
-                "QUESTION": "In general, what will help machines to learn better?",
-                "ANSWER_1": "More examples",
-                "ANSWER_2": "Fewer examples",
-                "NOTES_1": "That isn't the only thing that has an effect. But in general, the more examples it has to learn from, the better it should learn."
+                "QUESTION": "일반적으로, 컴퓨터가 더 잘 배우려면 무엇이 도움이 될까요?",
+                "ANSWER_1": "더 많은 데이터",
+                "ANSWER_2": "더 적은 데이터",
+                "NOTES_1": "이것만 영향을 주는 것은 아닙니다. 하지만 일반적으로, 배울 수 있는 데이터가 많을수록 더 잘 배우게 됩니다."
             },
             "QUESTION_2": {
-                "QUESTION": "Which of these would probably be best for training a computer to recognise a photo of an apple?",
-                "ANSWER_1": "Photos of dogs",
-                "ANSWER_2": "Varied photos of different types of apples in different places",
-                "ANSWER_3": "Identical photos of an apple",
-                "ANSWER_4": "Very, very similar photos of the same apple in the same place",
-                "NOTES_1": "The more varied the examples you can collect, the more the system can learn about how to recognise different pictures of an apple.",
-                "NOTES_2": "If every example you give it is the same apple on the same brown wooden table, it might learn that something is only an apple if it's on a brown wooden table."
+                "QUESTION": "컴퓨터가 사과 사진을 인식하도록 훈련하려면 다음 중 어떤 것이 가장 좋을까요?",
+                "ANSWER_1": "강아지 사진들",
+                "ANSWER_2": "다양한 장소에서 찍은 여러 종류의 사과 사진들",
+                "ANSWER_3": "완전히 똑같은 사과 사진들",
+                "ANSWER_4": "같은 장소에서 찍은 같은 사과의 매우 비슷한 사진들",
+                "NOTES_1": "수집하는 데이터가 다양할수록, 컴퓨터는 서로 다른 사과 사진들을 인식하는 방법을 더 많이 배울 수 있습니다.",
+                "NOTES_2": "만약 컴퓨터에게 주는 데이터가 전부 같은 갈색 나무 탁자 위에 놓인 같은 사과라면, 컴퓨터는 갈색 나무 탁자 위에 있어야만 사과라고 배워버릴 수도 있습니다."
             },
             "QUESTION_3": {
-                "QUESTION": "Which of these would be a good use of machine learning?",
-                "ANSWER_1": "Adding big numbers together",
-                "ANSWER_2": "Recognising if an email is spam",
-                "ANSWER_3": "Counting the number of times a button is pressed",
-                "NOTES_1": "Spam filters are a good example of machine learning.",
-                "NOTES_2": "With enough examples of legitimate emails, and enough examples of spam emails, a computer can start to learn how to recognise a spam email."
+                "QUESTION": "다음 중 머신러닝을 활용하기에 적합한 것은 무엇일까요?",
+                "ANSWER_1": "큰 숫자들을 더하기",
+                "ANSWER_2": "이메일이 스팸인지 인식하기",
+                "ANSWER_3": "버튼이 눌린 횟수 세기",
+                "NOTES_1": "스팸 필터는 머신러닝의 좋은 예시입니다.",
+                "NOTES_2": "정상 이메일 데이터와 스팸 이메일 데이터를 충분히 모으면, 컴퓨터는 스팸 이메일을 인식하는 방법을 배우기 시작할 수 있습니다."
             },
             "QUESTION_4": {
-                "QUESTION": "Which of these is NOT a good use of machine learning?",
-                "ANSWER_1": "Sentiment analysis - recognising the mood, tone or emotion in text",
-                "ANSWER_2": "Translating text from one language to another",
-                "ANSWER_3": "Face recognition - recognising a face in a photo and identifying who it is",
-                "ANSWER_4": "Self-driving cars",
-                "ANSWER_5": "Calculating the cost of something in different countries based on exchange rates",
-                "ANSWER_6": "Recommending a movie based on films you've watched before",
-                "NOTES_1": "Tasks that involve following rules which can be worked out are not a good use for machine learning.",
-                "NOTES_2": "A computer isn't going to learn how to apply an exchange rate from examples - we can just tell it what to do."
+                "QUESTION": "다음 중 머신러닝을 활용하기에 적합하지 않은 것은 무엇일까요?",
+                "ANSWER_1": "감정 분석 - 글에 담긴 기분, 어조, 감정 인식하기",
+                "ANSWER_2": "한 언어에서 다른 언어로 텍스트 번역하기",
+                "ANSWER_3": "얼굴 인식 - 사진 속 얼굴을 인식하고 누구인지 알아내기",
+                "ANSWER_4": "자율주행 자동차",
+                "ANSWER_5": "환율을 바탕으로 여러 나라에서의 물건 가격 계산하기",
+                "ANSWER_6": "이전에 본 영화들을 바탕으로 영화 추천하기",
+                "NOTES_1": "정해진 규칙을 따르면 되는 작업은 머신러닝을 활용하기에 적합하지 않습니다.",
+                "NOTES_2": "컴퓨터가 환율 적용하는 법을 데이터에서 배울 필요는 없습니다. 그냥 어떻게 하는지 알려주면 되니까요."
             },
             "QUESTION_5": {
-                "QUESTION": "Which of these would be more likely to be successful?",
-                "ANSWER_1": "Collect a small set of examples, train a system, test to see how good it is. Add more examples, train again, and then test again. Repeat until it gets good enough.",
-                "ANSWER_2": "More examples is better, so decide you must need millions of examples. Start collecting a massive set of examples, and spend months collecting more and more and more.",
-                "NOTES_1": "More examples is generally better, but be practical.",
-                "NOTES_2": "Pragmatism is important. Regular testing is useful to let you know how things are going, and help you know when you've done enough.",
-                "NOTES_3": "When you've only got ten examples, another ten examples will probably make a huge difference.",
-                "NOTES_4": "When you've got 100,000 examples, another ten examples probably won't have a noticeable impact."
+                "QUESTION": "다음 중 어느 방법이 더 성공할 가능성이 높을까요?",
+                "ANSWER_1": "적은 양의 데이터를 수집해 시스템을 훈련하고, 얼마나 잘하는지 테스트한다. 데이터를 더 추가해 다시 훈련하고, 다시 테스트한다. 충분히 좋아질 때까지 반복한다.",
+                "ANSWER_2": "데이터는 많을수록 좋으니, 수백만 개의 데이터가 반드시 필요하다고 판단한다. 엄청난 양의 데이터를 수집하기 시작하고, 몇 달 동안 계속해서 모으고 또 모은다.",
+                "NOTES_1": "일반적으로 데이터는 많을수록 좋지만, 현실적으로 생각해야 합니다.",
+                "NOTES_2": "실용성이 중요합니다. 정기적인 테스트는 훈련이 잘 되고 있는지 알려주고, 언제 충분한지 판단하는 데 도움이 됩니다.",
+                "NOTES_3": "데이터가 10개뿐일 때는, 10개를 더 추가하면 아마 큰 차이가 생길 것입니다.",
+                "NOTES_4": ""데이터가 100,000개 있을 때는, 10개를 더 추가해도 눈에 띄는 변화는 없을 것입니다."
             },
             "QUESTION_6": {
-                "QUESTION": "Which of these statements is correct?",
-                "ANSWER_1": "Machine learning is a technique where computers can be trained to perform tasks instead of needing to be given an explicit set of steps to follow",
-                "ANSWER_2": "Machine learning is magic",
-                "ANSWER_3": "Machine learning means we don't need to think about problems any more because computers will think for us",
-                "ANSWER_4": "Machine learning has replaced the need for us to learn how to code",
-                "ANSWER_5": "Machine learning can only be done on massive supercomputers"
+                "QUESTION": "다음 중 올바른 설명은 무엇일까요?",
+                "ANSWER_1": "머신러닝은 컴퓨터에게 따라야 할 단계를 일일이 알려주지 않아도, 훈련을 통해 작업을 수행하게 만드는 기술이다",
+                "ANSWER_2": "머신러닝은 마법이다",
+                "ANSWER_3": "머신러닝이 있으면 컴퓨터가 대신 생각해주므로 우리는 더 이상 문제에 대해 생각할 필요가 없다",
+                "ANSWER_4": "머신러닝 덕분에 우리는 더 이상 코딩을 배울 필요가 없다",
+                "ANSWER_5": "머신러닝은 거대한 슈퍼컴퓨터에서만 할 수 있다"
             },
             "QUESTION_7": {
-                "QUESTION": "A machine learning system trained to recognise pictures with a tree in should be good at which of the following tasks:",
-                "ANSWER_1": "Identifying pictures of fruit",
-                "ANSWER_2": "Recognising the emotion in a piece of writing",
-                "ANSWER_3": "Recognising pictures of trees",
-                "NOTES_1": "Machine learning does not mean computers magically learn to do everything.",
-                "NOTES_2": "It means they learn how to do a specific task by being shown examples of that specific task.",
-                "NOTES_3": "If you want it to do something else, you need to train it to do that as well, by giving it examples of that."
+                "QUESTION": "나무가 있는 사진을 인식하도록 훈련된 머신러닝 시스템은 다음 중 어떤 작업을 잘할까요?",
+                "ANSWER_1": "과일 사진 알아보기",
+                "ANSWER_2": "글에 담긴 감정 인식하기",
+                "ANSWER_3": "나무 사진 인식하기s",
+                "NOTES_1": "머신러닝은 컴퓨터가 마법처럼 모든 것을 배우게 된다는 뜻이 아닙니다.",
+                "NOTES_2": "특정 작업의 데이터를 보여주면, 그 특정 작업을 하는 법을 배운다는 뜻입니다.",
+                "NOTES_3": "다른 작업도 시키고 싶다면, 그 작업의 데이터를 주고 따로 훈련시켜야 합니다."
             },
             "QUESTION_8": {
-                "QUESTION": "Alice and Bob both want to train a machine learning system to recognise if text is happy/positive or sad/negative. Which of them will probably train the best system?",
-                "ANSWER_1": "Alice. She has collected 10 varied examples of happy text, and 10 varied examples of sad text",
-                "ANSWER_2": "Bob. He has collected 1000 examples of happy writing and 10 examples of sad writing",
-                "NOTES_1": "Collecting a roughly similar number of examples for each label is a useful technique.",
-                "NOTES_2": "If nearly every example of writing you train a system with is happy, you might end up training the system to assume that sad writing is very unlikely, and that it should assume happy more often.",
-                "NOTES_4": "But, you might want it to do this.",
-                "NOTES_5": "If you're training a system to recognise text where text is happy 98% of the time, training it with that realistic experience might be worth a try."
+                "QUESTION": "앨리스와 밥은 글이 행복한지/긍정적인지 또는 슬픈지/부정적인지 인식하는 머신러닝 시스템을 훈련하려고 합니다. 누가 더 좋은 시스템을 훈련하게 될까요?",
+                "ANSWER_1": "앨리스. 다양한 행복한 글 10개와 다양한 슬픈 글 10개를 수집했다",
+                "ANSWER_2": "밥. 행복한 글 1000개와 슬픈 글 10개를 수집했다",
+                "NOTES_1": "각 레이블마다 비슷한 개수의 데이터를 수집하는 것이 유용한 방법입니다.",
+                "NOTES_2": "훈련에 사용하는 글이 거의 다 행복한 글이라면, 시스템은 슬픈 글이 매우 드물다고 배워서 웬만하면 행복하다고 판단하게 될 수 있습니다.",
+                "NOTES_4": "하지만, 일부러 그렇게 만들고 싶을 수도 있습니다.",
+                "NOTES_5": "실제로 98%가 행복한 글인 환경에서 쓸 시스템을 훈련한다면, 그 현실을 반영해 훈련하는 것도 시도해볼 만합니다."
             },
             "QUESTION_9": {
-                "QUESTION": "Advanced machine learning technology will always give correct answers. Incorrect answers mean the machine learning technology isn't very good",
-                "ANSWER_1": "True",
-                "ANSWER_2": "False",
-                "NOTES_1": "Not necessarily.",
-                "NOTES_3": "The technology and algorithms are important. BUT machine learning systems are only as accurate and reliable as the training they are given.",
-                "NOTES_4": "Simple machine learning algorithms with a lot of high quality training can do better than the most advanced machine learning algorithms with a small amount of poor quality training."
+                "QUESTION": ""발전된 머신러닝 기술은 항상 정답을 준다. 틀린 답이 나온다면 그 머신러닝 기술이 별로 좋지 않다는 뜻이다",
+                "ANSWER_1": "맞다",
+                "ANSWER_2": "틀리다",
+                "NOTES_1": "꼭 그렇지는 않습니다.",
+                "NOTES_3": "기술과 알고리즘도 중요합니다. 하지만 머신러닝 시스템의 정확성과 신뢰성은 어떤 훈련을 받았는지에 달려 있습니다.",
+                "NOTES_4": "단순한 머신러닝 알고리즘이라도 좋은 품질의 훈련을 많이 받으면, 나쁜 품질의 훈련을 조금 받은 최첨단 알고리즘보다 더 잘할 수 있습니다."
             },
             "QUESTION_10": {
-                "QUESTION": "How can you make sure your collection of animal pictures is good quality for training a machine and doesn't contain human mistakes?",
-                "ANSWER_1": "Manually inspect all of the pictures of animals yourself and make sure you agree with all of the labels",
+                "QUESTION": "동물 사진 모음이 컴퓨터 훈련에 적합한 좋은 품질인지, 사람의 실수가 들어 있지 않은지 어떻게 확인할 수 있을까요?",
+                "ANSWER_1": "모든 동물 사진을 직접 하나하나 살펴보고 모든 레이블에 동의하는지 확인한다",
                 "ANSWER_2": "Ask lots of people to label all the images and keep the training labels that people generally agree on",
                 "ANSWER_3": "Trick question! Humans are always right - machines make mistakes!",
                 "NOTES_1": "Even humans make mistakes and you won't always have time to double check all the training data!",
