@@ -1073,20 +1073,20 @@
         "SCRATCH3": "새로운 버전의 스크래치로 만들어봅시다.",
         "PYTHON": "파이썬을 이용하여 만들어봅시다.",
         "APPINVENTOR": "여러분의 스마트폰이나 태블릿에서 사용할 수 있는 앱을 만들어봅시다.",
-        "EDUBLOCKS": "Write Python using a drag and drop coding tool",
-        "REPLIT": "Write Python code in the web browser using replit",
-        "COLAB": "Write Python code in the web browser using Google Colab"
+        "EDUBLOCKS": "드래그 앤 드롭 코딩 도구로 파이썬 작성하기",
+        "REPLIT": "replit을 이용해 웹 브라우저에서 파이썬 코드 작성하기",
+        "COLAB": "구글 코랩(Google Colab)을 이용해 웹 브라우저에서 파이썬 코드 작성하기"
     },
     "PYTHON": {
         "TITLE": "파이썬에서 머신러닝 사용하기",
 
         "NOTREADY": "아직 준비중입니다",
         "NOMODEL": "훈련된 모델이 없습니다",
-        "EXPIRED": "Your model is no longer available on the model server.",
+        "EXPIRED": "모델 서버에서 더 이상 이 모델을 사용할 수 없습니다.",
 
-        "NOSOUND": "Python cannot be used with sounds projects.",
+        "NOSOUND": "소리 프로젝트에서는 파이썬을 사용할 수 없습니다.",
 
-        "LAUNCH": "Run Python in the browser",
+        "LAUNCH": "브라우저에서 파이썬 실행하기",
         "LOCAL": "내 컴퓨터에서 실행 하도록 코드를 복사하세요.",
 
         "REPLIT": {
@@ -1096,61 +1096,61 @@
         },
 
         "MODE": {
-            "INTRO": "Where would you like to write and run your Python code?",
-            "BROWSER": "You can do everything in the web browser, which means you don't need to worry about installing or setting up Python, or any of the third-party Python modules you will need.",
-            "LOCAL": "Or you can copy the code to run on your own computer. This is useful if there are local files, or devices like a webcam or speaker, that you want to use in your Python program."
+            "INTRO": "파이썬 코드를 어디에서 작성하고 실행하고 싶으신가요?",
+            "BROWSER": "웹 브라우저에서 모든 걸 할 수 있어요. 그러면 파이썬이나 필요한 서드파티 파이썬 모듈을 설치하고 설정하는 걸 신경 쓰지 않아도 됩니다.,
+            "LOCAL": "아니면 코드를 복사해서 여러분의 컴퓨터에서 직접 실행할 수도 있어요. 파이썬 프로그램에서 로컬 파일이나 웹캠, 스피커 같은 장치를 사용하고 싶다면 이 방법이 유용해요."
         },
 
-        "APIKEY_INSTRUCTION": "You need to <span class='strongemphasis'>add your API key</span> to the project. Do that on line 6 of the template.",
-        "APIKEY_WARNING": "Treat this code like a password and make sure that you keep it secret!",
+        "APIKEY_INSTRUCTION": "프로젝트에 <span class='strongemphasis'>API 키를 추가</span>해야 합니다. 템플릿의 6번째 줄에서 추가하세요.",
+        "APIKEY_WARNING": "이 코드는 비밀번호처럼 다루고, 반드시 비밀로 유지하세요!",
 
-        "REPLACE_THIS": "Replace this:",
-        "WITH_THIS": "with this:",
+        "REPLACE_THIS": "이 부분을:",
+        "WITH_THIS": "이렇게 바꾸세요:",
 
-        "UNCOMMENT": "You will need to remove a comment # character in the template to use the function.",
+        "UNCOMMENT": "이 함수를 사용하려면 템플릿에서 주석 표시인 # 문자를 지워야 해요.",
 
         "RECOGNIZE": {
-            "INSTRUCTION": "Try updating the example on line 28 of the template.",
+            "INSTRUCTION": "템플릿의 28번째 줄에 있는 예시를 수정해보세요.",
             "TEXT": {
-                "INTRO": "If you want to use your machine learning model to <span class='strongemphasis'>recognize text</span>, you can use the <code>classifyText</code> function.",
-                "REPLACE": "Update this with the text you want your machine learning model to recognize:"
+                "INTRO": "머신러닝 모델로 <span class='strongemphasis'>텍스트를 인식</span>하고 싶다면, <code>classifyText</code> 함수를 사용할 수 있어요.",
+                "REPLACE": "여러분의 머신러닝 모델이 인식하기를 원하는 텍스트로 이 부분을 바꿔보세요:"
             },
             "IMAGES": {
-                "INTRO": "If you want to use your machine learning model to <span class='strongemphasis'>recognize images</span>, you can use the <code>classifyImages</code> function.",
-                "REPLACE": "Update this with the web address for a picture you want your machine learning model to recognize:"
+                "INTRO": "머신러닝 모델로 <span class='strongemphasis'>이미지를 인식</span>하고 싶다면, <code>classifyImages</code> 함수를 사용할 수 있어요.",
+                "REPLACE": "여러분의 머신러닝 모델이 인식하기를 원하는 사진의 웹 주소로 이 부분을 바꿔보세요:"
             },
             "NUMBERS": {
-                "INTRO": "If you want to use your machine learning model to <span class='strongemphasis'>recognize numbers</span>, you can use the <code>classifyNumbers</code> function."
+                "INTRO": "머신러닝 모델로 <span class='strongemphasis'>숫자를 인식</span>하고 싶다면, <code>classifyNumbers</code> 함수를 사용할 수 있어요."
             }
         },
         "STORE": {
-            "ADD": "Data you want to add:",
-            "INSTRUCTION": "Try updating the example on line 45 of the template.",
+            "ADD": "추가하고 싶은 데이터:",
+            "INSTRUCTION": "템플릿의 45번째 줄에 있는 예시를 수정해보세요.",
             "TEXT": {
-                "INTRO": "If you want to <span class='strongemphasis'>add training examples</span> to your machine learning project, you can use the <code>storeText</code> function."
+                "INTRO": "머신러닝 프로젝트에 <span class='strongemphasis'>학습 예제를 추가</span>하고 싶다면, <code>storeText</code> 함수를 사용할 수 있어요."
             },
             "NUMBERS": {
-                "INTRO": "If you want to <span class='strongemphasis'>add training examples</span> to your machine learning project, you can use the <code>storeNumbers</code> function."
+                "INTRO": "머신러닝 프로젝트에 <span class='strongemphasis'>학습 예제를 추가</span>하고 싶다면, <code>storeNumbers</code> 함수를 사용할 수 있어요."
             }
         }
     },
     "EDUBLOCKS": {
-        "TITLE": "Coding in EduBlocks",
-        "TIP": "Tip: You have to click on <span class='pythonreplhighlight'>Clone</span> to start editing your own copy of the code",
-        "NOTREADY": "Your project isn't ready to be used in EduBlocks yet.",
-        "NOMODEL": "You haven't trained a machine learning model yet.",
-        "GO": "Go to EduBlocks",
-        "LAUNCH": "Open EduBlocks"
+        "TITLE": "EduBlocks에서 코딩하기",
+        "TIP": "팁: 자신의 코드 복사본을 편집하려면 <span class='pythonreplhighlight'>Clone</span>을 클릭해야 합니다.",
+        "NOTREADY": "이 프로젝트는 아직 EduBlocks에서 사용할 준비가 되지 않았습니다.",
+        "NOMODEL": "아직 훈련된 머신러닝 모델이 없습니다.",
+        "GO": "EduBlocks로 가세요",
+        "LAUNCH": "EduBlocks 열기"
     },
     "APPINVENTOR": {
         "TITLE": "앱 인벤터에서 머신러닝 사용하기",
 
-        "LAUNCH_APPINVENTOR_BY_ITSELF": "(You can use <a href='{{ url }}' class='btn btn-default' target='_blank'>App Inventor by itself</a> if you want.)",
+        "LAUNCH_APPINVENTOR_BY_ITSELF": "(원한다면 <a href='{{ url }}' class='btn btn-default' target='_blank'>App Inventor를 단독으로</a> 사용할 수도 있어요.)",
 
         "NOTREADY": "아직 준비중입니다",
         "NOMODEL": "훈련된 모델이 없습니다",
 
-        "LAUNCH": "Open App Inventor"
+        "LAUNCH": "App Inventor 열기"
     },
     "SCRATCH": {
         "TITLE": "스크래치에서 머신러닝 사용하기",
@@ -1161,10 +1161,10 @@
         "LAUNCH": "스크래치에서 열기",
 
         "LAUNCH_SCRATCH_BY_ITSELF": "(원한다면 머신러닝 모델이 없는 <a href='{{ url }}' class='btn btn-default' target='_blank'>스크래치</a> 만을 사용할 수 있습니다.)",
-        "GO_TO_LEARNANDTEST": "Or go to the <a href='{{ urls.learnandtest }}'>Learn &amp; Test</a> page for some tips on what to do next.",
+        "GO_TO_LEARNANDTEST": "아니면 다음에 무엇을 할지 팁을 얻으려면 <a href='{{ urls.learnandtest }}'>배우기 & 테스트하기</a> 페이지로 이동하세요.",
 
         "MORE_BLOCKS": "<span style='background-color: purple; color: white; padding-left: 7px; padding-right: 7px; white-space: nowrap;'>More Blocks</span> 탭에 다음의 블록이 추가됩니다.",
-        "MORE_BLOCKS_3": "Your project will add these blocks to Scratch.",
+        "MORE_BLOCKS_3": "여러분의 프로젝트에 이 블록들이 스크래치에 추가됩니다.",
         "EXPLAIN_RECOGNISE_LABEL": "{{ type }} 칸에 값을 입력하면 여러분의 머신러닝 모델이 무엇을 인식하였는지를 알려줍니다.",
         "EXPLAIN_PREDICT": "Put input numbers in this, and it will return a prediction of the output number.",
         "EXPLAIN_RECOGNISE_CONFIDENCE": "여러분의 머신러닝 모델이 {{ type }}를 인식한 값의 정확도를 알려줍니다(0 - 100 사이의 값으로 나타냅니다).",
