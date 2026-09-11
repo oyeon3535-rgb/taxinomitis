@@ -1166,19 +1166,19 @@
         "MORE_BLOCKS": "<span style='background-color: purple; color: white; padding-left: 7px; padding-right: 7px; white-space: nowrap;'>More Blocks</span> 탭에 다음의 블록이 추가됩니다.",
         "MORE_BLOCKS_3": "여러분의 프로젝트에 이 블록들이 스크래치에 추가됩니다.",
         "EXPLAIN_RECOGNISE_LABEL": "{{ type }} 칸에 값을 입력하면 여러분의 머신러닝 모델이 무엇을 인식하였는지를 알려줍니다.",
-        "EXPLAIN_PREDICT": "Put input numbers in this, and it will return a prediction of the output number.",
+        "EXPLAIN_PREDICT": "여기에 입력 숫자를 넣으면, 출력 숫자에 대한 예측값을 반환합니다.",
         "EXPLAIN_RECOGNISE_CONFIDENCE": "여러분의 머신러닝 모델이 {{ type }}를 인식한 값의 정확도를 알려줍니다(0 - 100 사이의 값으로 나타냅니다).",
         "EXPLAIN_LABELS": "여러분이 프로젝트에서 만든 레이블을 나타냅니다. 여러분은 스크래치에서 이 블록을 사용할 수 있습니다.",
         "EXPLAIN_COSTUMEIMAGE": "이 블록은 모양 팔레트에 있으며, 현재 실행창에 나타난 모양을 가져옵니다.",
-        "EXPLAIN_ADD_TRAINING": "Use this to add a new example to your training data. (Training data has an effect after you train a machine learning model with it)",
-        "EXPLAIN_TRAIN_MODEL": "Use this to train a new machine learning model",
-        "EXPLAIN_IS_MODEL_READY": "The machine learning model will take a minute before it's ready for use. You can use these blocks to wait until it is ready.",
+        "EXPLAIN_ADD_TRAINING": "학습 데이터에 새로운 예제를 추가하려면 이 블록을 사용하세요. (학습 데이터는 이를 이용해 머신러닝 모델을 훈련시킨 후에 효과가 나타납니다)",
+        "EXPLAIN_TRAIN_MODEL": "새로운 머신러닝 모델을 훈련시키려면 이 블록을 사용하세요",
+        "EXPLAIN_IS_MODEL_READY": "머신러닝 모델은 사용할 준비가 되기까지 1분 정도 걸립니다. 이 블록들을 사용해서 준비가 완료될 때까지 기다릴 수 있어요.",
         "SAMPLE_SCRIPT": "다음과 같이 스크립트를 만들 수 있습니다.:",
         "SAMPLE_SCREENSHOT": "블록들은 다음과 같이 여러분이 만든 프로젝트 이름과 함께 나타납니다.",
         "EXPLAIN_STATUS": "동그라미의 색깔은 여러분의 머신러닝 모델이 어떠한 상태인지 나타냅니다.",
         "STATUS_GREEN": "모델을 사용할 수 있다는 의미입니다.",
         "STATUS_YELLOW": "아직 모델 학습이 완료되지 않았다는 의미입니다.",
-        "STATUS_RED": "means something went wrong. Go back to the <a href='{{ urls.learnandtest }}'>Learn &amp; Test</a> page to see what went wrong with training."
+        "STATUS_RED": "무언가 잘못되었다는 의미입니다. 훈련 과정에서 무엇이 잘못되었는지 확인하려면 <a href='{{ urls.learnandtest }}'>배우기 & 테스트하기</a> 페이지로 돌아가세요."
     },
     "SCRATCH3": {
         "TITLE": "스크래치 3에서 머신러닝 사용하기",
@@ -1191,34 +1191,34 @@
         "INTRO_1": "이 프로젝트는 다운로드가 가능한 단계별 가이드이며, 학생들이 따라할 수 있도록 스크린샷과 설명이 있습니다.",
         "INTRO_2": "각 프로젝트는 하나의 수업주제를 가지고 있으며, 학생들이 AI와 머신러닝을 사용하여 게임과 상호작용이 가능한 프로젝트를 만들 수 있습니다.",
         "INTRO_3": "새로운 워크시트에 대한 제안이나, 워크시트에 대한 의견, 그리고 새로운 워크시트 개발에 참여해주시길 바랍니다.",
-        "INTRO_4": "Examples of how to use these worksheets, and a suggested order for using these with a class, can be found in the <a href='/stories'>stories about what students learn</a>.",
+        "INTRO_4": "이 워크시트들을 어떻게 활용하는지에 대한 예시와, 수업에서 사용할 때 추천하는 순서는 <a href='/stories'>학생들이 무엇을 배우는지에 대한 이야기</a>에서 확인할 수 있습니다.",
 
         "TYPES": {
             "TITLE": "인식:",
-            "LONGTITLE": "Train a computer to ",
-            "ALL": "See worksheets for all types of machine learning project",
+            "LONGTITLE": "컴퓨터를 훈련시켜서 ",
+            "ALL": "모든 종류의 머신러닝 프로젝트를 위한 워크시트 보기",
 
-            "PREFIX": "인식을 위한 컴퓨터 훈련",
-            "PREFIXREGRESSION": "Train a computer to predict ",
-            "PREFIXLANGUAGE": "Train a computer to generate ",
-            "SHORTPREFIX": "recognise ",
-            "SHORTPREFIXREGRESSION": "predict ",
-            "SHORTPREFIXLANGUAGE": "generate ",
+            "PREFIX": "인식을 위한 컴퓨터 훈련 ",
+            "PREFIXREGRESSION": "예측을 위한 컴퓨터 훈련 ",
+            "PREFIXLANGUAGE": "생성을 위한 컴퓨터 훈련 ",
+            "SHORTPREFIX": "인식 ",
+            "SHORTPREFIXREGRESSION": "예측 ",
+            "SHORTPREFIXLANGUAGE": "생성 ",
 
             "TEXT": "텍스트",
             "IMAGES": "이미지",
             "NUMBERS": "숫자",
             "SOUNDS": "소리",
-            "FACES": "faces",
-            "REGRESSION": "predicting numbers",
+            "FACES": "얼굴",
+            "REGRESSION": "숫자 예측하기",
 
-            "DESCRIPTIONTEXT": "In these projects, you will collect examples of text and use these to train a machine learning model that can recognise new examples of text",
-            "DESCRIPTIONIMAGES": "In these projects, you will collect examples of images and use these to train a machine learning model that can recognise new examples of images",
-            "DESCRIPTIONNUMBERS": "In these projects, you will collect sets of numbers and use these to train a machine learning model that can recognise a set of numbers",
-            "DESCRIPTIONSOUNDS": "In these projects, you will collect short sound recordings and use these to train a machine learning model that can recognise those sounds",
-            "DESCRIPTIONFACES": "In these projects, you will use a pretrained model that has been trained to recognise the location of faces in images",
-            "DESCRIPTIONREGRESSION": "In these projects, you will collect examples of numbers, and use these to train a machine learning model to predict new numbers",
-            "DESCRIPTIONGENERATE": "In these projects, you will learn how Generative AI systems can create new text"
+            "DESCRIPTIONTEXT": "이 프로젝트들에서는 텍스트 예제를 수집하고, 이를 이용해 새로운 텍스트 예제를 인식할 수 있는 머신러닝 모델을 훈련시킵니다",
+            "DESCRIPTIONIMAGES": "이 프로젝트들에서는 이미지 예제를 수집하고, 이를 이용해 새로운 이미지 예제를 인식할 수 있는 머신러닝 모델을 훈련시킵니다",
+            "DESCRIPTIONNUMBERS": "이 프로젝트들에서는 숫자 묶음을 수집하고, 이를 이용해 숫자 묶음을 인식할 수 있는 머신러닝 모델을 훈련시킵니다",
+            "DESCRIPTIONSOUNDS": "이 프로젝트들에서는 짧은 소리 녹음을 수집하고, 이를 이용해 그 소리들을 인식할 수 있는 머신러닝 모델을 훈련시킵니다",
+            "DESCRIPTIONFACES": "이 프로젝트들에서는 이미지 속 얼굴의 위치를 인식하도록 미리 훈련된 모델을 사용합니다",
+            "DESCRIPTIONREGRESSION": "이 프로젝트들에서는 숫자 예제를 수집하고, 이를 이용해 새로운 숫자를 예측하는 머신러닝 모델을 훈련시킵니다",
+            "DESCRIPTIONGENERATE": "이 프로젝트들에서는 생성형 AI 시스템이 어떻게 새로운 텍스트를 만들어내는지 배웁니다"
         },
 
         "LEVELS": {
@@ -1233,35 +1233,35 @@
 
         "DOWNLOADS": {
             "AUDIENCE": {
-                "TEACHERS": "For teachers:",
-                "STUDENTS": "For students:"
+                "TEACHERS": "교사용:",
+                "STUDENTS": "학생용:"
             },
             "GUIDANCE": {
-                "TITLE": "Download guidance for teachers",
-                "DETAIL": "This sheet contains information for teachers or coding group leaders to help them prepare, setup and supervise this project.",
-                "NOTES": "Notes:",
-                "ORIGINALDOWNLOAD": "MS Word worksheet",
-                "ORIGINALNOTES": "Customize the worksheet for your students - such as by adding additional instructions to simplify the project, or by removing instructions or screenshots to give your students a challenge."
+                "TITLE": "교사용 가이드 다운로드",
+                "DETAIL": "이 자료지에는 교사나 코딩 그룹 리더가 이 프로젝트를 준비하고, 설정하고, 지도하는 데 도움이 되는 정보가 담겨 있습니다.",
+                "NOTES": "참고 사항:",
+                "ORIGINALDOWNLOAD": "MS 워드 워크시트",
+                "ORIGINALNOTES": "학생들에게 맞게 워크시트를 수정해보세요 - 프로젝트를 더 쉽게 만들기 위해 추가 설명을 넣거나, 반대로 도전 과제로 만들기 위해 설명이나 스크린샷을 빼는 방법 등이 있습니다."
             },
             "WORKSHEET": {
-                "TITLE": "Download project worksheet",
-                "AUTHOR": "Worksheet provided by:"
+                "TITLE": "프로젝트 워크시트 다운로드",
+                "AUTHOR": "워크시트 제공:"
             },
             "RESOURCES": {
-                "TITLE": "Additional project resources",
-                "DETAIL": "You will also need to provide students with a printed copy of this file."
+                "TITLE": "추가 프로젝트 자료",
+                "DETAIL": "학생들에게 이 파일의 인쇄본도 나눠줘야 합니다."
             }
         },
 
         "MAKETYPES": {
-            "TITLE": "Make with ",
+            "TITLE": "다음으로 만들기: ",
 
             "SCRATCH": "스크래치 프로젝트",
             "PYTHON": "파이썬 프로젝트",
             "APPINVENTOR": "앱 인벤터 프로젝트",
 
-            "DESCRIPTIONSCRATCH": "In these projects, student will make a Scratch project that creates and uses machine learning models",
-            "DESCRIPTIONPYTHON": "In these projects, student make Python projects that creates and uses machine learning models",
+            "DESCRIPTIONSCRATCH": "이 프로젝트들에서는 학생들이 머신러닝 모델을 만들고 사용하는 스크래치 프로젝트를 만듭니다",
+            "DESCRIPTIONPYTHON": "이 프로젝트들에서는 학생들이 머신러닝 모델을 만들고 사용하는 파이썬 프로젝트를 만듭니다",
 
             "SCRATCH_WORKSHEET": "스크래치 프로젝트를 위한 워크시트",
             "PYTHON_WORKSHEET": "파이썬 프로젝트를 위한 워크시트",
@@ -1290,15 +1290,15 @@
             "DESCRIPTION": "가상 기기에서 조정할 수 있는 스마트 어시스턴트를 만들어봐요.",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-smartclassroom.pdf",
             "WORKSHEET_1": {
-                "DESCRIPTION": "Full version of the project, where the students make a non-machine learning version first",
+                "DESCRIPTION": "프로젝트의 전체 버전으로, 학생들이 머신러닝을 사용하지 않는 버전을 먼저 만들어봅니다",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-smartclassroom.pdf"
             },
             "WORKSHEET_2": {
-                "DESCRIPTION": "Shorter version of the project, where the students only make a machine learning version of the assistant",
+                "DESCRIPTION": "프로젝트의 짧은 버전으로, 학생들이 어시스턴트의 머신러닝 버전만 만들어봅니다",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-smartclassroom-easy.pdf"
             },
             "WORKSHEET_3": {
-                "DESCRIPTION": "Quick simplified version of the project, ideal for use as a first introduction to the tool",
+                "DESCRIPTION": "간단하게 줄인 버전으로, 이 도구를 처음 소개할 때 사용하기 좋습니다",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-smartclassroom-tryitnow.pdf"
             }
         },
