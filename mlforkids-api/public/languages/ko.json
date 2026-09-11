@@ -1308,15 +1308,15 @@
             "DESCRIPTION": "멋진 것을 말하면 웃고, 그렇지 않으면 우는 만드는 캐릭터를 스크래치로 만들어봐요.",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-makemehappy.pdf",
             "WORKSHEET_1": {
-                "DESCRIPTION": "Full version of the project, where the students make a non-machine learning version first",
+                "DESCRIPTION": "프로젝트의 전체 버전으로, 학생들이 머신러닝을 사용하지 않는 버전을 먼저 만들어봅니다",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-makemehappy.pdf"
             },
             "WORKSHEET_2": {
-                "DESCRIPTION": "Shorter version of the project, where the students only make a machine learning version",
+                "DESCRIPTION": "프로젝트의 짧은 버전으로, 학생들이 머신러닝 버전만 만들어봅니다",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-makemehappy-easy.pdf"
             },
             "WORKSHEET_3": {
-                "DESCRIPTION": "Python project - for making the project using Python",
+                "DESCRIPTION": "파이썬 프로젝트 - 파이썬으로 이 프로젝트를 만들기 위한 워크시트",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-makemehappy-python.pdf"
             }
         },
@@ -1326,11 +1326,11 @@
             "DESCRIPTION": "카드 사진을 인식하는 방법을 배우는 스크래치의 카드 게임을 만들어봐요.",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-snap.pdf",
             "WORKSHEET_1": {
-                "DESCRIPTION": "Full version of the project, where the students make their own cards that they will train the computer to recognise",
+                "DESCRIPTION": "프로젝트의 전체 버전으로, 학생들이 컴퓨터가 인식하도록 훈련시킬 카드를 직접 만듭니다",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-snap.pdf"
             },
             "WORKSHEET_2": {
-                "DESCRIPTION": "Shorter version of the project, providing children with pre-made cards that you will need to print out, to save the students time having to make them",
+                "DESCRIPTION": "프로젝트의 짧은 버전으로, 학생들이 직접 카드를 만드는 시간을 절약할 수 있도록 미리 만들어진 카드를 제공하며, 이 카드는 인쇄해서 사용해야 합니다",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-snap-easy.pdf",
                 "RESOURCES": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/resources-snap-easy.pdf"
             }
@@ -1377,11 +1377,11 @@
             "DESCRIPTION": "사진을 그룹화할 수 있도록 컴퓨터를 가르쳐봐요.",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-carorcup.pdf",
             "WORKSHEET_1": {
-                "DESCRIPTION": "Individual version of the project, where each student trains their own machine learning model independently",
+                "DESCRIPTION": "개별 버전의 프로젝트로, 각 학생이 자신만의 머신러닝 모델을 독립적으로 훈련시킵니다",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-carorcup.pdf"
             },
             "WORKSHEET_2": {
-                "DESCRIPTION": "Group version of the project, where students in the class work together to train a shared machine learning model",
+                "DESCRIPTION": "그룹 버전의 프로젝트로, 학급의 학생들이 함께 협력해서 공유된 머신러닝 모델을 훈련시킵니다",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-carorcup-crowd.pdf"
             }
         },
@@ -1396,7 +1396,7 @@
         },
         "JOURNEYTOSCHOOL": {
             "TITLE": "학교 가는 길",
-            "SUMMARY": "Teach a computer to make predictions",
+            "SUMMARY": "컴퓨터가 예측할 수 있도록 가르쳐봐요",
             "DESCRIPTION": "아침에 학교에 가는 방법을 예측할 수 있도록 컴퓨터를 가르쳐봐요.",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-journeytoschool.pdf",
             "WORKSHEET_1": {
@@ -1436,11 +1436,11 @@
             "DESCRIPTION": "선택한 주제에 관한 질문에 답변 할 수있는 챗봇을 만들어봐요.",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-chatbots.pdf",
             "WORKSHEET_1": {
-                "DESCRIPTION": "Scratch project - for making a chat bot in Scratch",
+                "DESCRIPTION": "스크래치 프로젝트 - 스크래치로 챗봇 만들기",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-chatbots.pdf"
             },
             "WORKSHEET_2": {
-                "DESCRIPTION": "Python project - for making a chat bot using Python",
+                "DESCRIPTION": "파이썬 프로젝트 - 파이썬으로 챗봇 만들기",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-chatbots-python.pdf"
             }
         },
@@ -1459,11 +1459,11 @@
             "DESCRIPTION": "해리 포터와 같은 정렬 모자(Sorting Hat)을 만들면, 당신이 말하는 대로 학교에 들어갈 수 있습니다.",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-sortinghat.pdf",
             "WORKSHEET_1": {
-                "DESCRIPTION": "Individual version of the project, where each student trains their own machine learning model independently",
+                "DESCRIPTION": "개별 버전의 프로젝트로, 각 학생이 자신만의 머신러닝 모델을 독립적으로 훈련시킵니다",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-sortinghat.pdf"
             },
             "WORKSHEET_2": {
-                "DESCRIPTION": "Group version of the project, where students in the class work together to train a shared machine learning model",
+                "DESCRIPTION": "그룹 버전의 프로젝트로, 학급의 학생들이 함께 협력해서 공유된 머신러닝 모델을 훈련시킵니다",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-sortinghat-crowd.pdf"
             }
         },
@@ -1527,15 +1527,15 @@
             "DESCRIPTION": "파이썬을 통해 당신을 이기는 방법을 학습하는  noughts and crosses 게임을 만드세요.",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-noughtsandcrosses.pdf",
             "WORKSHEET_1": {
-                "DESCRIPTION": "Classroom version, where each student makes the game themselves in Scratch",
+                "DESCRIPTION": "학급용 버전으로, 각 학생이 스크래치로 직접 게임을 만듭니다",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-noughtsandcrosses.pdf"
             },
             "WORKSHEET_2": {
-                "DESCRIPTION": "Classroom version, where each student makes the game themselves in Python",
+                "DESCRIPTION": "학급용 버전으로, 각 학생이 파이썬으로 직접 게임을 만듭니다",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-noughtsandcrosses-python.pdf"
             },
             "WORKSHEET_3": {
-                "DESCRIPTION": "Demo version, for events like Science Fairs where each child has a minute or two to try something",
+                "DESCRIPTION": "데모 버전으로, 과학 박람회 같은 행사에서 각 아이가 1~2분 정도 짧게 체험해볼 때 사용합니다",
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-noughtsandcrosses-event.pdf"
             }
         },
@@ -1620,62 +1620,62 @@
             }
         },
         "ZOMBIEESCAPE": {
-            "TITLE": "Zombie Escape!",
-            "SUMMARY": "Teach a computer to make predictions",
-            "DESCRIPTION": "Train a computer to help you escape from the zombies",
+            "TITLE": "좀비 탈출!",
+            "SUMMARY": "컴퓨터가 예측할 수 있도록 가르쳐봐요",
+            "DESCRIPTION": "좀비로부터 탈출할 수 있도록 도와주는 컴퓨터를 훈련시켜보세요",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-zombieescape.pdf",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-zombieescape.pdf"
             }
         },
         "PHISHING": {
-            "TITLE": "Phishing",
-            "SUMMARY": "Teach a computer to recognize phishing web links",
-            "DESCRIPTION": "Create a Python program that can predict if a URL is legitimate",
+            "TITLE": "피싱",
+            "SUMMARY": "피싱 웹 링크를 인식하도록 컴퓨터를 가르쳐봐요",
+            "DESCRIPTION": "URL이 정상적인지 예측할 수 있는 파이썬 프로그램을 만들어보세요",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-phishing.pdf",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-phishing.pdf"
             }
         },
         "KIWIORSTOAT": {
-            "TITLE": "Kiwi or Stoat",
-            "SUMMARY": "Teach a computer to recognize photos of animals",
-            "DESCRIPTION": "Make a project in Scratch that can recognize the animals in photos from conservation sites",
+            "TITLE": "키위 또는 족제비",
+            "SUMMARY": "동물 사진을 인식하도록 컴퓨터를 가르쳐봐요",
+            "DESCRIPTION": "보호 구역에서 찍은 사진 속 동물을 인식할 수 있는 스크래치 프로젝트를 만들어보세요",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-kiwiorstoat.pdf"
             }
         },
         "INKBLOTS": {
-            "TITLE": "Ink blots",
-            "SUMMARY": "Teach a computer to recognize photos of objects",
-            "DESCRIPTION": "Recreate an MIT research project and learn about how AI systems are described in the news.",
+            "TITLE": "잉크 얼룩",
+            "SUMMARY": "물체 사진을 인식하도록 컴퓨터를 가르쳐봐요",
+            "DESCRIPTION": "MIT의 연구 프로젝트를 재현해보고, 뉴스에서 AI 시스템이 어떻게 다뤄지는지 알아보세요.",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-inkblots.pdf",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-inkblots.pdf"
             }
         },
         "FACEFINDER": {
-            "TITLE": "Face Finder",
-            "SUMMARY": "Use a computer that has been trained to recognize faces",
-            "DESCRIPTION": "Make a video filter in Scratch to turn your face into a cartoon.",
+            "TITLE": "얼굴 찾기",
+            "SUMMARY": "얼굴을 인식하도록 훈련된 컴퓨터를 사용해보세요",
+            "DESCRIPTION": "스크래치로 여러분의 얼굴을 만화 캐릭터로 바꿔주는 비디오 필터를 만들어보세요.",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-facefinder.pdf",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-facefinder.pdf"
             }
         },
         "EMOJIMASK": {
-            "TITLE": "Emoji Mask",
-            "SUMMARY": "Use a computer that has been trained to recognize faces",
-            "DESCRIPTION": "Make a video filter in Scratch to add an emoji mask to your face.",
+            "TITLE": "이모지 마스크",
+            "SUMMARY": "얼굴을 인식하도록 훈련된 컴퓨터를 사용해보세요",
+            "DESCRIPTION": "스크래치로 여러분의 얼굴에 이모지 마스크를 씌워주는 비디오 필터를 만들어보세요.",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-emojimask.pdf",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-emojimask.pdf"
             }
         },
         "LASEREYES": {
-            "TITLE": "Laser Eyes",
-            "SUMMARY": "Teach a computer to recognize speech and faces",
-            "DESCRIPTION": "Make a voice-activated laser eyes game in Scratch.",
+            "TITLE": "레이저 눈",
+            "SUMMARY": "음성과 얼굴을 인식하도록 컴퓨터를 가르쳐봐요",
+            "DESCRIPTION": "스크래치로 음성으로 작동하는 레이저 눈 게임을 만들어보세요.",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-lasereyes.pdf",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-lasereyes.pdf"
@@ -1683,8 +1683,8 @@
         },
         "SEMAPHORES": {
             "TITLE": "수기 신호 퀴즈",
-            "SUMMARY": "Teach a computer to recognize speech and poses",
-            "DESCRIPTION": "Make a voice-activated semaphores game you play by moving your arms.",
+            "SUMMARY": "음성과 자세를 인식하도록 컴퓨터를 가르쳐봐요",
+            "DESCRIPTION": "팔을 움직여서 플레이하는, 음성으로 작동하는 수기 신호 게임을 만들어보세요.",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-semaphores.pdf",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-semaphores.pdf"
@@ -1709,148 +1709,148 @@
             }
         },
         "POKEMONSTATS": {
-            "TITLE": "Pokémon statistics",
-            "SUMMARY": "Teach a computer to recognize patterns in sets of numbers",
-            "DESCRIPTION": "Make a project in Scratch that predicts the type of Pokémon from their size and fighting stats.",
+            "TITLE": "포켓몬 능력치",
+            "SUMMARY": "숫자 묶음 속 패턴을 인식하도록 컴퓨터를 가르쳐봐요",
+            "DESCRIPTION": "포켓몬의 크기와 전투 능력치로 포켓몬의 타입을 예측하는 스크래치 프로젝트를 만들어보세요.",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-pokemonstats.pdf"
             }
         },
         "POKEMONIMAGES": {
-            "TITLE": "Pokémon images",
-            "SUMMARY": "Teach a computer to recognize pictures",
-            "DESCRIPTION": "Make a project in Scratch that predicts the type of Pokémon from how it looks",
+            "TITLE": "포켓몬 이미지",
+            "SUMMARY": "그림을 인식하도록 컴퓨터를 가르쳐봐요",
+            "DESCRIPTION": "생김새로 포켓몬의 타입을 예측하는 스크래치 프로젝트를 만들어보세요",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-pokemonimages.pdf"
             }
         },
         "ISPY": {
-            "TITLE": "I Spy",
-            "SUMMARY": "Use a computer that has been trained to recognize photos",
-            "DESCRIPTION": "Make a game in Scratch where you have to guess what the computer recognises.",
+            "TITLE": "아이 스파이",
+            "SUMMARY": "사진을 인식하도록 훈련된 컴퓨터를 사용해보세요",
+            "DESCRIPTION": "컴퓨터가 무엇을 인식했는지 맞춰야 하는 스크래치 게임을 만들어보세요.",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-ispy.pdf"
             }
         },
         "CARPOOL": {
-            "TITLE": "Carpool Cheats",
-            "SUMMARY": "Teach a computer to recognize a car without passengers",
-            "DESCRIPTION": "Make a game in Scratch where you make a traffic camera to catch carpool cheats.",
+            "TITLE": "카풀 반칙 단속",
+            "SUMMARY": "승객이 없는 자동차를 인식하도록 컴퓨터를 가르쳐봐요",
+            "DESCRIPTION": "카풀 반칙 차량을 잡아내는 교통 카메라를 만드는 스크래치 게임을 만들어보세요.",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-carpoolcheats.pdf"
             }
         },
         "CATCHTHEBALL": {
-            "TITLE": "Catch the ball",
-            "SUMMARY": "Teach a computer to predict where a ball will land",
-            "DESCRIPTION": "Make a game in Scratch where you predict where a bouncing ball will go before it moves.",
+            "TITLE": "공 잡기",
+            "SUMMARY": "공이 어디로 떨어질지 예측하도록 컴퓨터를 가르쳐봐요",
+            "DESCRIPTION": "튀어오르는 공이 움직이기 전에 어디로 갈지 예측하는 스크래치 게임을 만들어보세요.",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-catchtheball.pdf"
             }
         },
         "HOOPS": {
-            "TITLE": "Hoops",
-            "SUMMARY": "Teach a computer to shoot hoops",
-            "DESCRIPTION": "Make a game in Scratch that learns how to score basketball hoops.",
+            "TITLE": "농구 슛",
+            "SUMMARY": "골을 넣도록 컴퓨터를 가르쳐봐요",
+            "DESCRIPTION": "농구 골을 넣는 방법을 배우는 스크래치 게임을 만들어보세요.",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-hoops.pdf"
             }
         },
         "GOLF": {
-            "TITLE": "Golf",
-            "SUMMARY": "Teach a computer to putt golf balls",
-            "DESCRIPTION": "Make a game in Scratch that learns how to score in golf.",
+            "TITLE": "골프",
+            "SUMMARY": "골프공을 퍼팅하도록 컴퓨터를 가르쳐봐요",
+            "DESCRIPTION": "골프에서 득점하는 방법을 배우는 스크래치 게임을 만들어보세요.",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-golf.pdf"
             }
         },
         "CAPTCHA": {
-            "TITLE": "CAPTCHA",
-            "SUMMARY": "Teach a computer to recognise objects in photos",
-            "DESCRIPTION": "Make a game in Scratch that learns to solve CAPTCHA challenges.",
+            "TITLE": "캡차",
+            "SUMMARY": "사진 속 물체를 인식하도록 컴퓨터를 가르쳐봐요",
+            "DESCRIPTION": "캡차 문제를 푸는 방법을 배우는 스크래치 게임을 만들어보세요.",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-captcha.pdf"
             }
         },
         "RECOMMENDER": {
-            "TITLE": "Recommender",
-            "SUMMARY": "Teach a computer to recognise visual style",
-            "DESCRIPTION": "Make a game that recommends a book you would like to read.",
+            "TITLE": "추천 시스템",
+            "SUMMARY": "시각적 스타일을 인식하도록 컴퓨터를 가르쳐봐요",
+            "DESCRIPTION": "여러분이 읽고 싶어할 만한 책을 추천해주는 게임을 만들어보세요.",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-recommender.pdf"
             }
         },
         "MOBILENET": {
-            "TITLE": "Mobilenet",
-            "SUMMARY": "Use a computer that has been trained to recognize objects in a photo",
-            "DESCRIPTION": "Make a game in Scratch where the computer recognises what you click on",
+            "TITLE": "모바일넷",
+            "SUMMARY": "사진 속 물체를 인식하도록 훈련된 컴퓨터를 사용해보세요",
+            "DESCRIPTION": "여러분이 클릭한 것이 무엇인지 컴퓨터가 인식하는 스크래치 게임을 만들어보세요",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-mobilenet.pdf"
             }
         },
         "VOICETUNER": {
-            "TITLE": "Voice Tuner",
-            "SUMMARY": "Use a computer that has been trained to recognize musical notes",
-            "DESCRIPTION": "Make a game in Scratch where the computer recognises what note you are singing",
+            "TITLE": "보이스 튜너",
+            "SUMMARY": "음의 높낮이를 인식하도록 훈련된 컴퓨터를 사용해보세요",
+            "DESCRIPTION": "여러분이 어떤 음을 노래하고 있는지 컴퓨터가 인식하는 스크래치 게임을 만들어보세요",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-voicetuner.pdf"
             }
         },
         "SHOEBOX": {
-            "TITLE": "Shoebox",
-            "SUMMARY": "Teach a computer to recognize speech",
-            "DESCRIPTION": "Recreate the world's first speech recognition system from 1961.",
+            "TITLE": "슈박스",
+            "SUMMARY": "음성을 인식하도록 컴퓨터를 가르쳐봐요",
+            "DESCRIPTION": "1961년에 만들어진 세계 최초의 음성 인식 시스템을 재현해보세요.",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-shoebox.pdf"
             }
         },
         "LANGUAGEMODELS": {
-            "TITLE": "Language models",
-            "SUMMARY": "Teach a computer how to generate text",
-            "DESCRIPTION": "Learn the concepts behind how language models can generate new text",
+            "TITLE": "언어 모델",
+            "SUMMARY": "텍스트를 생성하는 방법을 컴퓨터에게 가르쳐봐요",
+            "DESCRIPTION": "언어 모델이 새로운 텍스트를 생성하는 원리 뒤에 숨은 개념을 배워보세요",
             "TEACHERSNOTES_URL": "https://dalelane.co.uk/blog/?p=5538",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-langmodels.pdf"
             }
         },
         "STORYTELLER": {
-            "TITLE": "Story teller",
-            "SUMMARY": "Use a computer trained to generate text",
-            "DESCRIPTION": "Make a project in Scratch that can generate new stories",
+            "TITLE": "이야기꾼",
+            "SUMMARY": "텍스트를 생성하도록 훈련된 컴퓨터를 사용해보세요",
+            "DESCRIPTION": "새로운 이야기를 생성할 수 있는 스크래치 프로젝트를 만들어보세요",
             "TEACHERSNOTES_URL": "https://dalelane.co.uk/blog/?p=5538",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-storyteller.pdf"
             }
         },
         "RAGTIME": {
-            "TITLE": "RAG-time",
-            "SUMMARY": "Use a computer trained to generate text",
-            "DESCRIPTION": "Make a project in Scratch that displays answers to questions using live data",
+            "TITLE": "RAG-타임",
+            "SUMMARY": "텍스트를 생성하도록 훈련된 컴퓨터를 사용해보세요",
+            "DESCRIPTION": "실시간 데이터를 이용해 질문에 대한 답을 보여주는 스크래치 프로젝트를 만들어보세요",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-ragtime.pdf"
             }
         },
         "BENCHMARK": {
-            "TITLE": "Benchmark",
-            "SUMMARY": "Use a computer trained to generate text",
-            "DESCRIPTION": "Make a project in Scratch that can test a language model",
+            "TITLE": "벤치마크",
+            "SUMMARY": "텍스트를 생성하도록 훈련된 컴퓨터를 사용해보세요",
+            "DESCRIPTION": "언어 모델을 테스트할 수 있는 스크래치 프로젝트를 만들어보세요",
             "TEACHERSNOTES_URL": "https://github.com/IBM/taxinomitis-docs/raw/master/teachers-notes/pdf/teachersnotes-benchmark.pdf",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-benchmark.pdf"
             }
         },
         "PERSONAS": {
-            "TITLE": "Personas",
-            "SUMMARY": "Use a computer trained to generate text",
-            "DESCRIPTION": "Make a project in Scratch that can answer questions as a mystery person",
+            "TITLE": "페르소나",
+            "SUMMARY": "텍스트를 생성하도록 훈련된 컴퓨터를 사용해보세요",
+            "DESCRIPTION": "미스터리한 인물이 되어 질문에 답할 수 있는 스크래치 프로젝트를 만들어보세요",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-personas.pdf"
             }
         },
         "TRANSLATIONTELEPHONE": {
-            "TITLE": "Translation Telephone",
-            "SUMMARY": "Use a computer trained to generate text",
-            "DESCRIPTION": "Make a project in Scratch that translates a sentence between a series of languages",
+            "TITLE": "번역 전화",
+            "SUMMARY": "텍스트를 생성하도록 훈련된 컴퓨터를 사용해보세요",
+            "DESCRIPTION": "여러 언어를 거쳐 문장을 번역하는 스크래치 프로젝트를 만들어보세요",
             "WORKSHEET_1": {
                 "URL": "https://github.com/IBM/taxinomitis-docs/raw/master/project-worksheets/pdf/worksheet-translationtelephone.pdf"
             }
